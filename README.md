@@ -16,7 +16,7 @@ Esta guía condensa más de 15 años de investigación experimental en física d
 
 ---
 
-## ⚡ Guía Rápida: Los 6 Pasos para Encontrar Trabajo sin Frustrarse en el Intento
+## ⚡ Guía para el Impaciente: Los 6 Pasos para Encontrar Trabajo sin Frustrarse en el Intento
 
 Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desde el primer día:
 
