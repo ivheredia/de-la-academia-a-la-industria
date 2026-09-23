@@ -199,7 +199,7 @@ Tu formación científica te dio el pensamiento analítico más poderoso del mer
 ## 📚 7. Bibliografía y Rutas de Aprendizaje Curadas
 
 ### ⚛️ A. Física de Altas Energías y Cómputo Científico
-> *Si ya vienes de un posgrado en ciencias exactas, probablemente conoces estos recursos. Esta subsección está pensada para quienes vienen de otros campos y desean entender el contexto de la física experimental y el cómputo científico.*
+> *Si ya vienes de un posgrado en física, probablemente conoces estos recursos. Esta subsección está pensada para quienes vienen de otros campos/áreas y desean entender el contexto de la física experimental de altas energías y el cómputo científico.*
 
 <details>
 <summary>📖 Click para expandir recursos de Física y HPC</summary>
