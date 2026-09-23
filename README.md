@@ -16,16 +16,52 @@ Esta guía condensa más de 15 años de investigación experimental en física d
 
 ---
 
-## ⚡ 1. La Regla Cero: Mentalidad y Compromiso ("Quemar los Barcos")
+## ⚡ Guía Rápida: Los 6 Pasos para Encontrar Trabajo sin Frustrarse en el Intento
 
-Si decides dar el salto a la industria, **entra con convicción y en serio, no como un plan de espera** mientras sale la siguiente convocatoria de posdoc o beca académica.
-* **El mercado lo detecta de inmediato:** Ningún equipo u organización invierte meses y miles de dólares en capacitar a alguien que se marchará al primer llamado académico.
-* **El contraste de ritmo y compensación:** En la industria la compensación económica escala a un ritmo considerablemente más acelerado que en la academia (lo que toma una década en la carrera científica se puede alcanzar en un par de años corporativos); sin embargo, la presión, la visibilidad y el ritmo de entrega son incomparablemente más altos. No existen los ciclos largos ni los momentos de pausa de la investigación pura.
-* **Lección de vida:** Trabajar en algo que no sea atractivo, retador o sumamente rentable es la receta segura para la frustración profesional.
+Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desde el primer día:
+
+### Paso 0: Mentalidad y Ritmo ("Quemar los Barcos")
+* Si vas a entrar a la industria, entra en serio y no como un plan de espera mientras sale la siguiente convocatoria de posdoc. En las entrevistas eso se nota rápido y ninguna empresa invierte en capacitar a alguien que se irá a los pocos meses.
+* En la industria la compensación económica puede escalar con mayor rapidez que en la academia, pero la exigencia, la presión y el ritmo de entrega son incomparablemente más altos. No hay descansos ni ciclos largos de investigación: todo se mueve por entregas continuas, fechas límite y valor tangible.
+
+### Paso 1: Contactos y Recomendaciones (El Atajo Real)
+* Busca primero a amigos, excompañeros de posgrado o conocidos en la industria.
+* **Una recomendación interna te ahorra meses de espera y decenas de aplicaciones en frío.** Es la vía con mayor tasa de conversión por mucho.
+
+### Paso 2: Repite el Paso 1 (Networking Activo)
+* Sigue escribiendo y llamando a tu red. Si no tienes contactos directos, búscalos en LinkedIn: perfiles de física o matemáticas que ya estén trabajando en bancos, fondos de inversión, startups o consultoras. Escríbeles un mensaje breve, respetuoso y directo para entender cómo hicieron su transición.
+
+### Paso 3: Afina tu CV (Superar el Filtro de RH y de los ATS)
+* **Formato simple:** Máximo 1 o 2 cuartillas (1 recomendada). Diseño sobrio, limpio y en una sola columna. Evita plantillas sobrecargadas con barras de porcentaje ("Python 90%") o diseños complejos que rompen los lectores automáticos (ATS). Más extenso se descarta por falta de capacidad de síntesis.
+* **Traduce tu tesis:** Quita los tecnicismos de física pura ("colisiones de agujeros negros", "correcciones cuánticas en supergravedad"). Traduce tu trabajo a: *modelado estocástico, optimización matemática, simulación numérica, estadística aplicada y análisis de incertidumbre*.
+* **Herramientas obligatorias:** Incluye lo básico que buscan: Python (pandas, numpy, scikit-learn, scipy), **SQL y Git**. En la industria estos dos últimos no son opcionales: si no sabes SQL no puedes extraer los datos, y si no sabes Git no puedes colaborar en un equipo técnico. Si tienes nociones de NLP, Deep Learning o tableros de BI, inclúyelos.
+* **Puestos objetivo:** Con un posgrado en ciencias exactas, no te desgastes aplicando a puestos de soporte o analista junior haciendo reportes básicos. Apunta a **Data Science Aplicada, Modelado Cuantitativo / Quants / Riesgos o Validación de Modelos (Model Risk)**.
+* **Criterio de búsqueda:** Busca un giro que te inspire o te rete técnicamente. La capacidad analítica avanzada se marchita en problemas triviales.
+
+### Paso 4: Portafolio en GitHub (Tu Prueba Técnica Indispensable)
+* En la industria, tu GitHub es la prueba fehaciente de que sabes programar de forma limpia y estructurada.
+* **Evita ejemplos típicos de tutoriales:** No subas el dataset del Titanic o la clasificación de flores Iris.
+* Sube 2 o 3 proyectos propios con código modular, buenas prácticas y un `README.md` ejecutivo corto que explique:
+  1. Qué problema cuantitativo o de negocio se abordó.
+  2. Qué supuestos y metodología se utilizaron.
+  3. Qué resultados e impacto se obtuvieron.
+
+### Paso 5: Prepárate para las Llamadas de Recursos Humanos
+* Lleva un registro ordenado de las empresas y puestos a los que aplicas para que no te tomen desprevenido al teléfono.
+* Te llamarán para validar que tu perfil encaja con la vacante y revisar tus pretensiones económicas.
+* **Cuando pregunten salario:** Da siempre un rango razonable, nunca una cifra fija. Investiga previamente en Glassdoor o LinkedIn los sueldos de mercado para perfiles de Data Scientist o Quant en ese sector.
+
+### Paso 6: Las Entrevistas Técnicas (Convencer al Manager)
+* Aquí hablarás directo con el líder técnico o el manager del área.
+* **Resalta tu pensamiento crítico:** Estructurar problemas difíciles desde cero, separar señal de ruido y evaluar supuestos y limitaciones de los modelos.
+* Recuerda la máxima de la industria: **un modelo perfecto que llega tarde o que nadie usa no sirve; se busca la solución útil, robusta y entregada a tiempo.** Muestra apertura y rapidez para aprender el negocio.
+* **Tipos de empresa:**
+  * *Startups / Scaleups:* Procesos de contratación más ágiles, mucha libertad para proponer y experimentar, pero menor estabilidad.
+  * *Corporativos grandes / Banca:* Procesos que toman semanas o meses, ambientes regulados, pero mayor estabilidad y presupuestos sólidos.
 
 ---
 
-## 🏛️ 2. El Choque Cultural: Academia vs. Industria
+## 🏛️ 1. El Choque Cultural: Academia vs. Industria
 
 Ambos mundos optimizan **funciones objetivo distintas**. Transitar con éxito requiere reaprender métricas, lenguaje y velocidad de entrega:
 
@@ -42,7 +78,7 @@ Ambos mundos optimizan **funciones objetivo distintas**. Transitar con éxito re
 
 ---
 
-## 🔄 3. La Matriz de Traducción de Habilidades
+## 🔄 2. La Matriz de Traducción de Habilidades
 
 El mayor error de un científico es describir su trabajo en tecnicismos hiper-especializados. Tu valor está en cómo tus capacidades científicas resuelven problemas del mundo real:
 
@@ -57,7 +93,7 @@ El mayor error de un científico es describir su trabajo en tecnicismos hiper-es
 
 ---
 
-## 🎯 4. Arquetipos de Roles: ¿Dónde encaja un perfil cuantitativo/STEM?
+## 🎯 3. Arquetipos de Roles: ¿Dónde encaja un perfil cuantitativo/STEM?
 
 No te limites a aplicar al puesto genérico de "Data Scientist" o a hacer reportes junior en PowerBI. Apunta a donde tu fortaleza matemática sea una ventaja competitiva:
 
@@ -94,7 +130,7 @@ No te limites a aplicar al puesto genérico de "Data Scientist" o a hacer report
 
 ---
 
-## 🤖 5. El Rol del Científico en la Era de la IA Generativa
+## 🤖 4. El Rol del Científico en la Era de la IA Generativa
 
 Existe el mito de que los modelos de lenguaje (LLMs) automatizarán todo el trabajo cuantitativo. En realidad, la IA Generativa funciona como un **"becario infinito y acelerado"**: produce a gran velocidad y con redacción convincente, pero carece de juicio crítico, alucina con confianza y no comprende supuestos ni condiciones de frontera.
 
@@ -105,7 +141,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 ---
 
-## 📋 6. Las 7 Reglas de Oro para Egresados
+## 📋 5. Las 7 Reglas de Oro para Egresados
 
 1. **No esperes dominarlo todo antes de moverte:** La verdadera curva de aprendizaje ocurre dentro del cambio.
 2. **Explica por qué importa tu trabajo, no solo cómo lo hiciste:** A los directores les interesa el impacto, no la complejidad del cálculo.
@@ -117,18 +153,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 ---
 
-## 📄 7. El CV y el Portafolio Técnico: Guía Táctica
-
-### Errores comunes que descartan a un científico en 10 segundos:
-- ❌ **Poner "Candidate PhD":** RH no entiende este término. Usa títulos comprensibles como *Quantitative Researcher (Ph.D. Candidate)* o *Data Scientist / Researcher*.
-- ❌ **Hablar de física pura:** No hables de "colisiones de agujeros negros" o "teoría de cuerdas". Describe el reto computacional: *"Diseñé algoritmos de optimización en C++/Python para procesar datasets de alta dimensionalidad bajo restricciones severas de memoria."*
-- ❌ **Omitir herramientas clave:** En la industria, **SQL y Git/GitHub no son opcionales**. Si no sabes SQL, no puedes extraer datos; si no sabes Git, no puedes colaborar en equipo.
-- ❌ **Keyword Stuffing:** No amontones 30 conceptos teóricos seguidos en una lista interminable. Muestra cómo usaste esos métodos dentro de tus proyectos.
-- ❌ **Proyectos cliché en GitHub:** Evita subir el dataset del Titanic o la clasificación de flores Iris. Sube 2 o 3 proyectos propios de punta a punta, con código modular, pruebas y un `README.md` ejecutivo que explique el problema, la solución y los resultados.
-
----
-
-## 📚 8. Bibliografía y Rutas de Aprendizaje Curadas
+## 📚 6. Bibliografía y Rutas de Aprendizaje Curadas
 
 ### ⚛️ A. Física de Altas Energías y Cómputo Científico
 * **Modern Particle Physics (Mark Thomson):** [Sitio Oficial](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html) — Balance contemporáneo entre teoría y fenomenología experimental.
@@ -156,7 +181,7 @@ Para perfiles con formación matemática sólida que buscan entrar a banca de in
 
 ---
 
-## 💼 9. Semilleros y Canales de Atracción de Talento Joven (Ej. BBVA)
+## 💼 7. Semilleros y Canales de Atracción de Talento Joven (Ej. BBVA)
 
 Para estudiantes de últimos semestres y recién egresados buscando sus primeras oportunidades:
 * **Programas de Atracción STEM Femeninos:**
