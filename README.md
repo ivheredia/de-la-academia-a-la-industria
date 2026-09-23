@@ -106,42 +106,27 @@ El mayor error de un científico es describir su trabajo en tecnicismos hiper-es
 | **Mentoría y Dirección** | Elevar el estándar técnico del equipo, revisar código y desarrollar criterio analítico. | Formar analistas y juniors, inculcando buenas prácticas metodológicas. |
 | **Aprendizaje Autónomo** | Asimilar marcos teóricos complejos con mínima supervisión. | Dominar instrumentos financieros, regulaciones o sistemas cloud sin haber cursado finanzas antes. |
 
----
+### Antes y Después: Ejemplos de Traducción de CV
+
+| ❌ Antes (CV académico) | ✅ Después (CV para industria) |
+| :--- | :--- |
+| *"Desarrollo de modelos computacionales para la simulación de sistemas dinámicos complejos con 10⁶ grados de libertad."* | *"Diseñé pipelines de simulación numérica en Python/C++ para sistemas de alta dimensionalidad (~10⁶ variables), optimizando tiempo de cómputo en un 40% mediante paralelización en clústeres HPC."* |
+| *"Análisis estadístico de señales experimentales en presencia de ruido de fondo y errores sistemáticos."* | *"Construí modelos de clasificación señal/ruido sobre datasets desbalanceados, integrando estimación de incertidumbre sistemática y validación estadística rigurosa (pruebas de hipótesis, intervalos de confianza)."* |
+| *"Investigación en optimización de procesos estocásticos aplicados a sistemas biológicos/químicos/físicos."* | *"Desarrollé algoritmos de optimización bajo incertidumbre (programación estocástica, Monte Carlo) para la toma de decisiones en sistemas con múltiples restricciones operativas y horizontes de planificación variable."* |
+| *"Publicación de 5 artículos en revistas indexadas JCR con factor de impacto > 3."* | *"Autor principal de 5 publicaciones en revistas de referencia internacional, demostrando capacidad de comunicación técnica rigurosa, revisión por pares y entrega bajo estándares de calidad editoriales."* |
 
 ## 🎯 3. Arquetipos de Roles: ¿Dónde encaja un perfil cuantitativo/STEM?
 
 No te limites a aplicar al puesto genérico de "Data Scientist" o a hacer reportes junior en PowerBI. Apunta a donde tu fortaleza matemática sea una ventaja competitiva:
 
-```
-                  ┌──────────────────────────────────────────────┐
-                  │    PERFILES CUANTITATIVOS EN LA INDUSTRIA   │
-                  └──────────────────────┬───────────────────────┘
-           ┌─────────────────────────────┼─────────────────────────────┐
-           ▼                             ▼                             ▼
-┌───────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-│ Data Science Aplicada │   │ Quant / Risk / Research │   │   ML & AI Engineering   │
-│ Predicción, churn,    │   │ Pricing, volatilidad,   │   │ LLMs, visión, NLP,      │
-│ optimización comercial│   │ portafolios, VaR / MRM  │   │ pipelines productivos   │
-└───────────────────────┘   └─────────────────────────┘   └─────────────────────────┘
-           ▲                             ▲                             ▲
-           │                             │                             │
-┌───────────────────────┐   ┌─────────────────────────┐   ┌─────────────────────────┐
-│ Optimization/Strategy │   │  Model Risk Validation  │   │  Analytics Consulting   │
-│ Programación lineal/  │   │ Auditoría de supuestos, │   │ Enmarcar problemas,     │
-│ dinámica, asignación  │   │ backtesting regulatorio │   │ puente negocio-técnico  │
-└───────────────────────┘   └─────────────────────────┘   └─────────────────────────┘
-```
-
-1. **Data Science Aplicada:** Predicción, segmentación y optimización operativa.  
-   *Gap a cerrar:* Traducir métricas técnicas ($R^2$, AUC) a métricas de negocio (conversión, ingresos, retención).
-2. **Quantitative Research & Risk:** Pricing de derivados, sensibilidad, gestión de riesgo de mercado/crédito.  
-   *Gap a cerrar:* Conocer la estructura de los productos financieros y su entorno regulatorio.
-3. **Model Risk Management (MRM) / Validación:** Auditar modelos de terceros, revisar condiciones de frontera y backtesting.  
-   *Ventaja del científico:* Escepticismo sano, rigurosidad metodológica y documentación formal.
-4. **Optimization & Strategic Analytics:** Asignación de capital, optimización de logística y decisiones bajo restricciones.  
-   *Ventaja del científico:* Programación dinámica, lineal y métodos estocásticos.
-5. **Product / Analytics Consulting (Decision Science):** Identificar dolores de negocio, formular el caso de uso y coordinar su entrega.  
-   *Gap a cerrar:* Negociación organizacional y gestión de expectativas.
+| Rol / Área | Qué harías | Ventaja del científico | Gap típico a cerrar |
+| :--- | :--- | :--- | :--- |
+| **Data Science Aplicada** | Predicción, segmentación, optimización comercial, churn. | Rigor estadístico, diseño experimental, manejo de incertidumbre. | Traducir métricas técnicas ($R^2$, AUC) a métricas de negocio (conversión, ingresos, retención). |
+| **Quant / Risk / Research** | Pricing de derivados, volatilidad, portafolios, VaR. | Cálculo estocástico, EDPs, métodos numéricos, Monte Carlo. | Conocer la estructura de los productos financieros y su entorno regulatorio. |
+| **ML & AI Engineering** | LLMs, NLP, visión, pipelines productivos de ML. | Pensamiento algorítmico, depuración matemática, optimización numérica. | Ingeniería de software (CI/CD, contenedores, APIs, MLOps). |
+| **Model Risk / Validación** | Auditoría de modelos de terceros, backtesting regulatorio. | Escepticismo sano, rigurosidad metodológica y documentación formal. | Marcos regulatorios específicos (Basilea, IFRS 9, SR 11-7). |
+| **Optimization / Strategy** | Asignación de capital, logística, decisiones bajo restricciones. | Programación dinámica, lineal y métodos estocásticos. | Entender las restricciones operativas y políticas del negocio. |
+| **Analytics Consulting (Decision Science)** | Enmarcar problemas, puente negocio-técnico, coordinar entrega. | Formulación de problemas desde primeros principios. | Negociación organizacional y gestión de expectativas. |
 
 ---
 
@@ -153,6 +138,14 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 1. **Auditoría de supuestos y límites:** Discernir cuándo una correlación es espuria o cuándo un resultado matemáticamente inviable parece "plausible".
 2. **Formulación desde primeros principios:** Quien resolvió una tesis doctoral pasó años respondiendo preguntas que no tenían solución previa ni tutorial en internet. Ese hábito ahorra meses de iteraciones ciegas.
 3. **El perfil ganador:** **Científico + Consultor de Negocio** $\Rightarrow$ Quien entiende el dolor del cliente, formula la solución viable, comunica los riesgos y acompaña la adopción hasta generar impacto.
+
+#### Ejemplos concretos donde la IA falla y el criterio científico marca la diferencia:
+
+* **Fuga temporal en modelos predictivos (*data leakage*):** Un LLM puede construir un pipeline de predicción de churn con un AUC de 0.98 sin advertirte que una de las variables explicativas contiene información del futuro (por ejemplo, el motivo de baja del cliente que solo se registra *después* de la cancelación). El modelo se ve perfecto en el notebook, pero es inútil en producción. Un científico detecta la causalidad invertida porque entiende la diferencia entre correlación y mecanismo generador.
+
+* **Violación de supuestos en modelos financieros:** La IA puede implementar impecablemente un modelo de valuación de opciones (Black-Scholes) sobre un activo cuya distribución de retornos exhibe colas pesadas y saltos discontinuos (volatilidad estocástica, *fat tails*). El código compila, el precio sale, pero la cobertura (*hedging*) calculada puede subestimar el riesgo real en un orden de magnitud. Un científico cuestiona si la hipótesis de log-normalidad se cumple *antes* de confiar en el resultado.
+
+* **Sobreajuste silencioso en series de tiempo:** Un agente de IA puede entrenar un modelo de forecasting con 200 variables y reportar un error de validación mínimo, sin detectar que el modelo memorizó patrones estacionales del pasado que no se repetirán bajo un cambio de régimen macroeconómico (un cambio de política monetaria, una crisis geopolítica). El científico pregunta: *"¿bajo qué condiciones este modelo deja de funcionar?"* antes de ponerlo en producción.
 
 ---
 
@@ -206,12 +199,19 @@ Tu formación científica te dio el pensamiento analítico más poderoso del mer
 ## 📚 7. Bibliografía y Rutas de Aprendizaje Curadas
 
 ### ⚛️ A. Física de Altas Energías y Cómputo Científico
+> *Si ya vienes de un posgrado en ciencias exactas, probablemente conoces estos recursos. Esta subsección está pensada para quienes vienen de otros campos y desean entender el contexto de la física experimental y el cómputo científico.*
+
+<details>
+<summary>📖 Click para expandir recursos de Física y HPC</summary>
+
 * **Modern Particle Physics (Mark Thomson):** [Sitio Oficial](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html) — Balance contemporáneo entre teoría y fenomenología experimental.
 * **Introduction to Elementary Particles (David Griffiths):** [Editorial Wiley](https://www.wiley.com/en-us/Introduction+to+Elementary+Particles%2C+2nd%2C+Revised+Edition-p-9783527406012) — El texto introductorio por excelencia.
 * **Experimental Techniques in Nuclear and Particle Physics (Stefaan Tavernier):** [Descarga Gratuita SCOAP3 / Springer](https://link.springer.com/book/10.1007/978-3-642-00829-0) — Interacción radiación-materia y detectores (Open Access).
 * **CERN Summer Student Lecture Programme:** [Histórico en CERN Indico](https://indico.cern.ch/category/345/) — Minicursos de estadística (Glen Cowan), detectores y fenomenología.
 * **CERN openlab Summer Student Lectures:** [CERN openlab Indico](https://indico.cern.ch/category/14019/) — Cómputo de alto rendimiento, ML y análisis masivo de datos.
 * **Ecosistema de Software:** [ROOT CERN](https://root.cern/) y [Scikit-HEP Project](https://scikit-hep.org/) (uproot, awkward-array, iminuit).
+
+</details>
 
 ### 🤖 B. Ciencia de Datos y Machine Learning
 * **An Introduction to Statistical Learning (ISLR / ISLP) (James, Witten, Hastie, Tibshirani):** [Descarga Gratuita Legal](https://www.statlearning.com/) — Fundamento matemático indispensable del modelado predictivo (en Python y R).
