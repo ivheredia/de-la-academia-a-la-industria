@@ -16,6 +16,21 @@ Esta guía condensa más de 15 años de investigación experimental en física d
 
 ---
 
+## 📑 Contenido
+
+1. [⚡ Guía para el Impaciente: Los 6 Pasos para Encontrar Trabajo](#-guía-para-el-impaciente-los-6-pasos-para-encontrar-trabajo-sin-frustrarse-en-el-intento)
+2. [🏛️ El Choque Cultural: Academia vs. Industria](#️-1-el-choque-cultural-academia-vs-industria)
+3. [🔄 La Matriz de Traducción de Habilidades](#-2-la-matriz-de-traducción-de-habilidades)
+4. [🎯 Arquetipos de Roles](#-3-arquetipos-de-roles-dónde-encaja-un-perfil-cuantitativostem)
+5. [🤖 El Rol del Científico en la Era de la IA Generativa](#-4-el-rol-del-científico-en-la-era-de-la-ia-generativa)
+6. [📋 Las 7 Reglas de Oro para Egresados](#-5-las-7-reglas-de-oro-para-egresados)
+7. [🔧 Herramientas Indispensables que NO te Enseñaron en la Universidad](#-6-herramientas-indispensables-que-no-te-enseñaron-en-la-universidad)
+8. [📚 Bibliografía y Rutas de Aprendizaje Curadas](#-7-bibliografía-y-rutas-de-aprendizaje-curadas)
+9. [💼 Dónde Buscar Oportunidades](#-8-dónde-buscar-oportunidades-tipos-de-programas-y-canales)
+10. [🤝 Cómo Contribuir o Contactar](#-cómo-contribuir-o-contactar)
+
+---
+
 ## ⚡ Guía para el Impaciente: Los 6 Pasos para Encontrar Trabajo sin Frustrarse en el Intento
 
 Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desde el primer día:
@@ -153,7 +168,42 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 ---
 
-## 📚 6. Bibliografía y Rutas de Aprendizaje Curadas
+## 🔧 6. Herramientas Indispensables que NO te Enseñaron en la Universidad
+
+Tu formación científica te dio el pensamiento analítico más poderoso del mercado. Pero la industria asume que dominas ciertas herramientas operativas que rara vez se enseñan en un posgrado de ciencias. La buena noticia: con tu capacidad de aprendizaje autónomo, las puedes dominar en semanas, no en años.
+
+### 🗄️ SQL (Structured Query Language)
+* **Por qué es obligatorio:** En la industria, los datos viven en bases de datos relacionales. Sin SQL no puedes extraer, filtrar ni cruzar la información que alimenta tus modelos. Es tan fundamental como saber leer.
+* **Dónde aprenderlo gratis:**
+  * [SQLBolt](https://sqlbolt.com/) — Curso interactivo desde cero (2–3 horas).
+  * [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) — Enfocado en análisis de datos reales.
+  * [LeetCode SQL](https://leetcode.com/studyplan/top-sql-50/) — 50 problemas progresivos para practicar y preparar entrevistas técnicas.
+
+### 🔀 Git & GitHub
+* **Por qué es obligatorio:** En un equipo técnico, el código se versiona y se colabora a través de Git. Si no sabes hacer un `commit`, un `branch` o un `pull request`, no puedes trabajar en equipo. Punto.
+* **Dónde aprenderlo gratis:**
+  * [Git — the simple guide](https://rogerdudler.github.io/git-guide/index.es.html) — Guía visual en español (15 minutos).
+  * [GitHub Skills](https://skills.github.com/) — Cursos interactivos oficiales de GitHub.
+  * [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) — Referencia profesional completa.
+* **El flujo mínimo que debes dominar:** `clone` → `branch` → editar → `add` → `commit` → `push` → abrir `pull request`.
+
+### 💻 Terminal / Linux Básico
+* **Por qué importa:** La mayoría de los entornos de producción, servidores y pipelines de datos corren sobre Linux. Saber navegar por la terminal, mover archivos, escribir scripts básicos en Bash y automatizar tareas con `cron` te hace autosuficiente operativamente.
+* **Dónde aprenderlo gratis:**
+  * [The Missing Semester of Your CS Education (MIT)](https://missing.csail.mit.edu/) — Curso legendario que cubre exactamente lo que falta en la formación de científicos: terminal, scripting, Git, editores y depuración.
+  * [Linux Journey](https://linuxjourney.com/) — Guía interactiva progresiva.
+
+### ☁️ Cloud Computing (Conceptos Fundamentales)
+* **Por qué importa:** Los datos y modelos de la industria no viven en tu laptop. Viven en la nube. Saber qué es un *bucket* de almacenamiento (S3), cómo lanzar un notebook remoto (SageMaker, Vertex AI), o cómo consultar datos masivos sin descargarlos (Athena, BigQuery) te hace operativo desde el día uno.
+* **Dónde aprenderlo gratis:**
+  * [AWS Cloud Practitioner Essentials (AWS Skill Builder)](https://explore.skillbuilder.aws/) — Curso oficial gratuito de fundamentos cloud.
+  * [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) — Laboratorios prácticos con créditos gratuitos.
+
+> 💡 **Consejo práctico:** No necesitas ser un experto en infraestructura cloud. Necesitas entender el vocabulario y saber moverte lo suficiente para no depender al 100% de un ingeniero de DevOps cada vez que necesites correr un modelo o consultar una tabla.
+
+---
+
+## 📚 7. Bibliografía y Rutas de Aprendizaje Curadas
 
 ### ⚛️ A. Física de Altas Energías y Cómputo Científico
 * **Modern Particle Physics (Mark Thomson):** [Sitio Oficial](https://www.hep.phy.cam.ac.uk/~thomson/MPP/ModernParticlePhysics.html) — Balance contemporáneo entre teoría y fenomenología experimental.
@@ -181,17 +231,32 @@ Para perfiles con formación matemática sólida que buscan entrar a banca de in
 
 ---
 
-## 💼 7. Semilleros y Canales de Atracción de Talento Joven (Ej. BBVA)
+## 💼 8. Dónde Buscar Oportunidades: Tipos de Programas y Canales
 
-Para estudiantes de últimos semestres y recién egresados buscando sus primeras oportunidades:
-* **Programas de Atracción STEM Femeninos:**
-  * **Woman Trading Academy (BBVA CIB):** [Convocatoria WTA](https://vagas.ciadetalentos.com.br/hotsite/WTA2025BBVA) — Inmersión técnica de 9 meses en mesas de Trading (FX, Rates, CVA), Estructuración y QBS (*Quantitative & Business Solutions*).
-  * **Programa BIT 4 Women:** [Convocatoria BIT 4 Women](https://vagas.ciadetalentos.com.br/hotsite/BIT4Women2026) — Formación acelerada en Ciencia de Datos, ML y Ciberseguridad.
-  * [Testimonial en Video: Be Talent Data 4 Women](https://www.youtube.com/watch?v=wLLAPdKKqW8)
-* **Programas de Becarios y Trainees Generales:**
-  * [Portal de Programas de Talento Joven BBVA](https://grupociadetalentos.com/talentojoven-bbva/)
-  * [Convocatoria Programa de Becarios BBVA México](https://grupociadetalentos.com/talentojoven-bbva/becarios/index.html)
-  * [Bolsa de Trabajo y Comunidad de Talento](https://www.bbva.mx/bolsa-de-trabajo.html)
+Para estudiantes de últimos semestres, recién egresados y científicos en transición, estos son los **tipos de programas y canales** donde los perfiles STEM cuantitativos tienen mayor ventaja competitiva:
+
+### 🎓 Graduate / Trainee Programs
+* Los grandes bancos (CIB, Asset Management), consultoras estratégicas y Big Tech ofrecen programas estructurados de 6 a 18 meses para talento joven con formación cuantitativa avanzada.
+* **Qué buscar:** "Graduate Program", "Analyst Program", "Trainee Quantitative", "Junior Quant".
+* **Dónde encontrarlos:** Páginas de carreras de cada institución, LinkedIn Jobs, y portales especializados como [eFinancialCareers](https://www.efinancialcareers.com/) o [QuantNet](https://quantnet.com/).
+
+### 👩‍💻 Programas de Diversidad e Inclusión STEM
+* Muchas instituciones financieras y tecnológicas cuentan con programas específicos para atraer talento femenino y de comunidades subrepresentadas en áreas cuantitativas (Trading, Data Science, Ciberseguridad, Ingeniería).
+* **Qué buscar:** "Women in Trading", "Women in Tech", "STEM Diversity Program", "Women in Quantitative Finance".
+* **Dónde encontrarlos:** Páginas de Diversidad e Inclusión de cada empresa, ferias universitarias y redes como [Women in Data Science (WiDS)](https://www.widsconference.org/).
+
+### 🏢 Bolsas de Trabajo Especializadas
+* **Roles Cuantitativos y de Riesgo:** [eFinancialCareers](https://www.efinancialcareers.com/), [QuantNet](https://quantnet.com/), [Wilmott Forums](https://wilmott.com/).
+* **Data Science y ML:** [LinkedIn Jobs](https://www.linkedin.com/jobs/), [Glassdoor](https://www.glassdoor.com/), [Indeed](https://www.indeed.com/).
+* **Startups y Fintechs:** [AngelList / Wellfound](https://wellfound.com/), [Y Combinator Work at a Startup](https://www.ycombinator.com/jobs), portales locales de ecosistemas fintech.
+* **Sector Público y Organismos Internacionales:** Bancos centrales (Banxico, Fed, ECB), organismos reguladores (CNBV, SHCP), y organizaciones como el BID, Banco Mundial o CERN (para roles de *Data Science / Computing*).
+
+### 🤝 Networking y Comunidades
+* **Meetups y Conferencias:** PyData, DataDay, SciPy, meetups locales de Machine Learning y Finanzas Cuantitativas.
+* **Comunidades en Línea:** [Kaggle](https://www.kaggle.com/), [QuantStackExchange](https://quant.stackexchange.com/), foros de Wilmott, comunidades de Slack/Discord de Data Science en tu ciudad.
+* **Alumni de tu universidad:** Las redes de exalumnos de Cinvestav, IPN, UNAM, ITAM, Tec de Monterrey, etc., son canales directos y subutilizados.
+
+> ⚠️ **Nota sobre enlaces a convocatorias específicas:** Las convocatorias de programas corporativos cambian cada ciclo (semestral o anual). En lugar de listar URLs que caducan, busca directamente en la página de carreras de la institución que te interese o suscríbete a sus alertas de empleo en LinkedIn.
 
 ---
 
@@ -202,3 +267,7 @@ Esta es una iniciativa viva y de código abierto para apoyar a la comunidad cien
 * Si tienes sugerencias de recursos o mejoras, abre un **Pull Request** o inicia una discusión en los **Issues**.
 * Conéctate conmigo en LinkedIn: **[Dr. Iván Heredia de la Cruz](https://www.linkedin.com/in/ivheredia/)**  
 * Conoce mi perfil y trayectoria: **[ivheredia en GitHub](https://github.com/ivheredia)**
+
+---
+
+<sub>*Las opiniones y recomendaciones en esta guía son exclusivamente personales del autor y no representan la posición oficial de ninguna institución, empresa o empleador actual o anterior.*</sub>
