@@ -258,6 +258,8 @@ Para estudiantes de últimos semestres, recién egresados y científicos en tran
 
 > ⚠️ **Nota sobre enlaces a convocatorias específicas:** Las convocatorias de programas corporativos cambian cada ciclo (semestral o anual). En lugar de listar URLs que caducan, busca directamente en la página de carreras de la institución que te interese o suscríbete a sus alertas de empleo en LinkedIn.
 
+> 📌 **¿Buscas oportunidades específicas en México?** Consulta el directorio detallado: **[recursos/oportunidades-mexico.md](recursos/oportunidades-mexico.md)** — con enlaces a programas de banca, fintechs, sector público y más.
+
 ---
 
 ## 🤝 Cómo Contribuir o Contactar
