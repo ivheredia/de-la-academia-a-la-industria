@@ -57,7 +57,7 @@ Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desd
 ### Paso 4: Portafolio en GitHub (Tu Prueba Técnica Indispensable)
 * En la industria, tu GitHub es la prueba fehaciente de que sabes programar de forma limpia y estructurada.
 * **Evita ejemplos típicos de tutoriales:** No subas el dataset del Titanic o la clasificación de flores Iris.
-* ⚠️ **Un Jupyter Notebook NO es un producto de software terminado:** En la investigación es común asumir que un archivo `.ipynb` es el entregable final. En la industria, los notebooks son herramientas de experimentación y prototipado visual. Tu portafolio debe demostrar que sabes estructurar código modular en scripts `.py` organizados, con funciones documentadas, manejo de errores y pruebas básicas. Un proyecto que solo consiste en un notebook con celdas ejecutadas fuera de orden y variables globales causará descarte inmediato ante un equipo técnico serio.
+* ⚠️ **Un Jupyter Notebook NO es un producto de software terminado:** Es común asumir que un `.ipynb` es el entregable final. En la industria, los notebooks son herramientas de experimentación y prototipado visual. Tu portafolio debe demostrar que sabes estructurar código modular en scripts `.py` organizados, con funciones documentadas, manejo de errores y pruebas básicas. Un notebook con celdas ejecutadas y variables globales lo descarta de inmediato un equipo técnico serio.
 * Sube 2 o 3 proyectos propios con código modular, buenas prácticas y un `README.md` ejecutivo corto que explique:
   1. Qué problema cuantitativo o de negocio se abordó.
   2. Qué supuestos y metodología se utilizaron.
@@ -162,7 +162,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 5. **Entender el negocio no traiciona tu formación:** La vuelve relevante y de alto impacto en otro entorno.
 6. **Pide retroalimentación temprana y frecuente:** Reduce meses de retrabajo y acelera tu madurez corporativa.
 7. **La brillantez técnica suma mucho; la falta de comunicación o de fiabilidad la anulan por completo.**
-8. **Un posgrado no te hace automáticamente sénior:** Acredita capacidad analítica de élite, no veteranía operativa o de negocio. Entra con humildad técnica y rigor en un rol donde agregues valor desde el primer día; si entregas resultados, el crecimiento será meteórico.
+8. **Un posgrado no te hace automáticamente sénior:** Acredita que tienes una capacidad analítica fuerte, pero no necesariamente experiencia operativa o de negocio. Entra con humildad, escucha y aprende. Demuestra tus habilidades técnicas y agrega valor desde el primer día. Si entregas resultados, el crecimiento será rápido.
 
 ---
 
