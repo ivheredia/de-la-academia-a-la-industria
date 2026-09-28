@@ -53,6 +53,7 @@ Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desd
 * **Herramientas obligatorias:** Incluye lo básico que buscan: Python (pandas, numpy, scikit-learn, scipy), **SQL y Git**. En la industria estos dos últimos no son opcionales: si no sabes SQL no puedes extraer los datos, y si no sabes Git no puedes colaborar en un equipo técnico. Si tienes nociones de NLP, Deep Learning o tableros de BI, inclúyelos.
 * **Puestos objetivo y la trampa del ego doctoral:** Con un posgrado en ciencias exactas, no te desgastes aplicando a puestos de soporte o analista junior haciendo reportes básicos. Apunta a **Data Science Aplicada, Modelado Cuantitativo / Quants / Riesgos o Validación de Modelos (Model Risk)**. Pero cuidado con el extremo opuesto: **un doctorado no equivale a ser Director o VP desde el primer día.** Certifica una potencia analítica y metodológica de primer nivel, pero aún debes validar competencias de ingeniería en producción, marcos ágiles y valor de negocio. Postula a roles intermedios o sénior como colaborador individual (*Mid-level / Senior IC*); si entregas resultados tangibles, la velocidad de ascenso corporativo superará con creces la de la academia.
 * **Criterio de búsqueda:** Busca un giro que te inspire o te rete técnicamente. La capacidad analítica avanzada se marchita en problemas triviales.
+* 📄 **Plantilla probada en LaTeX:** Si no sabes por dónde empezar a estructurarlo, preparamos un formato de una sola página listo para usar: **[recursos/plantilla-cv.md](recursos/plantilla-cv.md)** (incluye archivo `.tex` editable para Overleaf).
 
 ### Paso 4: Portafolio en GitHub (Tu Prueba Técnica Indispensable)
 * En la industria, tu GitHub es la prueba de que sabes programar de forma limpia y estructurada.
@@ -115,6 +116,8 @@ El mayor error de un científico es describir su trabajo en tecnicismos hiper-es
 | *"Análisis estadístico de señales experimentales en presencia de ruido de fondo y errores sistemáticos."* | *"Construí modelos de clasificación señal/ruido sobre datasets desbalanceados, integrando estimación de incertidumbre sistemática y validación estadística rigurosa (pruebas de hipótesis, intervalos de confianza)."* |
 | *"Investigación en optimización de procesos estocásticos aplicados a sistemas biológicos/químicos/físicos."* | *"Desarrollé algoritmos de optimización bajo incertidumbre (programación estocástica, Monte Carlo) para la toma de decisiones en sistemas con múltiples restricciones operativas y horizontes de planificación variable."* |
 | *"Publicación de 5 artículos en revistas indexadas JCR con factor de impacto > 3."* | *"Autor principal de 5 publicaciones en revistas de referencia internacional, demostrando capacidad de comunicación técnica rigurosa, revisión por pares y entrega bajo estándares de calidad editoriales."* |
+
+> 💡 **Plantilla descargable:** Consulta la estructura completa de CV en una sola página con ejemplos listos para adaptar en **[recursos/plantilla-cv.md](recursos/plantilla-cv.md)** (incluye código fuente en LaTeX).
 
 ---
 

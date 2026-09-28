@@ -57,7 +57,8 @@ de-la-academia-a-la-industria/
 ├── LICENSE                            # MIT License
 └── recursos/
     ├── oportunidades-mexico.md        # Directorio de oportunidades en México
-    └── plantilla-cv.md                # Plantilla de CV para transición [próximamente]
+    ├── plantilla-cv.md                # Guía y explicación de la plantilla de CV
+    └── plantilla-cv.tex               # Plantilla editable en LaTeX (1 cuartilla)
 ```
 
 ---
