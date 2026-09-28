@@ -27,7 +27,8 @@ Esta guía condensa más de 15 años de investigación experimental en física d
 7. [🔧 Herramientas Indispensables que NO te Enseñaron en la Universidad](#-6-herramientas-indispensables-que-no-te-enseñaron-en-la-universidad)
 8. [📚 Bibliografía y Rutas de Aprendizaje Curadas](#-7-bibliografía-y-rutas-de-aprendizaje-curadas)
 9. [💼 Dónde Buscar Oportunidades](#-8-dónde-buscar-oportunidades-tipos-de-programas-y-canales)
-10. [🤝 Cómo Contribuir o Contactar](#-cómo-contribuir-o-contactar)
+10. [❓ Preguntas Frecuentes (FAQ)](#-9-preguntas-frecuentes-faq)
+11. [🤝 Cómo Contribuir o Contactar](#-cómo-contribuir-o-contactar)
 
 ---
 
@@ -114,6 +115,8 @@ El mayor error de un científico es describir su trabajo en tecnicismos hiper-es
 | *"Análisis estadístico de señales experimentales en presencia de ruido de fondo y errores sistemáticos."* | *"Construí modelos de clasificación señal/ruido sobre datasets desbalanceados, integrando estimación de incertidumbre sistemática y validación estadística rigurosa (pruebas de hipótesis, intervalos de confianza)."* |
 | *"Investigación en optimización de procesos estocásticos aplicados a sistemas biológicos/químicos/físicos."* | *"Desarrollé algoritmos de optimización bajo incertidumbre (programación estocástica, Monte Carlo) para la toma de decisiones en sistemas con múltiples restricciones operativas y horizontes de planificación variable."* |
 | *"Publicación de 5 artículos en revistas indexadas JCR con factor de impacto > 3."* | *"Autor principal de 5 publicaciones en revistas de referencia internacional, demostrando capacidad de comunicación técnica rigurosa, revisión por pares y entrega bajo estándares de calidad editoriales."* |
+
+---
 
 ## 🎯 3. Arquetipos de Roles: ¿Dónde encaja un perfil cuantitativo/STEM?
 
@@ -262,13 +265,116 @@ Para estudiantes de últimos semestres, recién egresados y científicos en tran
 
 ---
 
+## ❓ 9. Preguntas Frecuentes (FAQ)
+
+> *Estas respuestas reflejan la experiencia y opinión personal del autor. No son verdades absolutas y pueden variar según el contexto, el país y el sector. Si tienes una perspectiva diferente, compártela en [Discussions](https://github.com/ivheredia/de-la-academia-a-la-industria/discussions).*
+
+<details>
+<summary><strong>¿Necesito una maestría en finanzas o un MBA para entrar a un banco o fondo de inversión?</strong></summary>
+
+**No.** Un doctorado en ciencias exactas (física, matemáticas, ingeniería, cómputo) con base cuantitativa sólida es un credencial *superior* al MBA para roles cuantitativos (Quant, Risk, Model Validation, Data Science). Los bancos de inversión y fondos contratan Ph.D. en física y matemáticas desde hace décadas precisamente porque la formación en modelado estocástico, métodos numéricos y pensamiento bajo incertidumbre es difícil de replicar con un programa de maestría generalista.
+
+Lo que sí necesitas es **aprender el vocabulario financiero** (qué es un swap, cómo se valúa una opción, qué es el VaR) y entender el contexto regulatorio. Eso lo consigues leyendo Hull (3-4 semanas de lectura enfocada), no cursando un MBA de 2 años.
+
+**La excepción:** Si tu objetivo es un rol puramente de negocio (estrategia corporativa, banca comercial, dirección general), ahí sí un MBA o una maestría en finanzas agrega valor porque el rol no es técnico.
+
+</details>
+
+<details>
+<summary><strong>¿Me van a pagar menos por venir de la academia?</strong></summary>
+
+**Depende de tu punto de comparación y de tu poder de negociación.** Tu primer salario en la industria probablemente será mayor que el de un profesor-investigador de tiempo completo en una universidad pública (en México y en la mayoría de Latinoamérica). Pero podría ser menor que lo que gana alguien con 5 años de experiencia en industria en el mismo rol.
+
+La diferencia clave es la **velocidad de crecimiento.** En la academia, el incremento salarial está amarrado a tabuladores institucionales, estímulos y el SNI, con techos bajos y crecimiento lento. En la industria, si generas impacto visible, puedes duplicar tu compensación total (salario + bono + equity) en 3-5 años. La curva es exponencial, no lineal.
+
+**Consejo práctico:** No aceptes el primer número que te ofrezcan. Investiga el rango de mercado en Glassdoor, LinkedIn Salary y preguntando directamente a colegas en la industria. Da siempre un rango, nunca una cifra fija, y negocia. Muchos científicos subestiman su valor de mercado y aceptan ofertas por debajo de lo que merecen.
+
+</details>
+
+<details>
+<summary><strong>¿No soy demasiado viejo o demasiado especializado para cambiar?</strong></summary>
+
+**No eres demasiado viejo. Pero tu estrategia debe ser diferente a la de alguien de 25 años.** Un recién egresado compite por volumen: envía 50 aplicaciones y entra a un programa de trainee. Un doctor de 35-45 años compite por **posicionamiento**: identifica 3-5 empresas donde su expertise específico genere valor inmediato, y entra por networking y recomendación directa, no por convocatoria abierta.
+
+La "hiperespecialización" no es un defecto — es una *ventaja mal comunicada.* Si tu tesis fue sobre simulación de dinámica de fluidos, no digas "hice CFD en el régimen turbulento de Navier-Stokes". Di: "diseñé y validé modelos de simulación numérica para sistemas complejos con millones de grados de libertad, optimizando el trade-off entre precisión computacional y costo de cómputo". Eso es exactamente lo que hace un quant, un ingeniero de ML o un científico de datos senior.
+
+**Dato real:** Muchas de las contrataciones más valoradas en áreas cuantitativas de la banca son doctores entre 30 y 45 años. La madurez intelectual, la tolerancia a la frustración y la capacidad de estructurar problemas difíciles son activos que un junior simplemente no tiene.
+
+</details>
+
+<details>
+<summary><strong>¿Se puede regresar a la academia después?</strong></summary>
+
+**Sí, pero se vuelve más difícil con el tiempo, y serás un investigador diferente.** En los primeros 2-3 años, tu red académica y tus publicaciones siguen vigentes. Puedes postularte a plazas o convocatorias de repatriación (como los programas de Conahcyt) con un perfil enriquecido: "investigador con experiencia en aplicación industrial de métodos cuantitativos".
+
+Después de 5+ años, el camino de regreso se complica: tus publicaciones se enfrían, pierdes contacto con los ciclos de financiamiento y las redes de revisores, y los comités de evaluación pueden ver tu experiencia industrial como una "laguna" en productividad académica (injustamente, pero así funciona el sistema).
+
+**La pregunta más honesta que debes hacerte no es si puedes regresar, sino si querrás.** Muchos científicos que salen a la industria descubren que la velocidad de impacto, la compensación económica y la diversidad de problemas les resultan más estimulantes que el ciclo de publicación académica. Y eso está bien. No tiene por qué haber una respuesta universal.
+
+**Ruta híbrida:** Algunos mantienen un pie en cada mundo: profesor de asignatura o cátedra parcial, director de tesis, colaborador externo en proyectos de investigación. Es viable, pero requiere disciplina para no diluir tu energía.
+
+</details>
+
+<details>
+<summary><strong>¿Pierdo mi SNI si me voy a la industria?</strong></summary>
+
+**Depende.** El Sistema Nacional de Investigadores e Investigadoras (SNII, antes SNI) de Conahcyt exige que el beneficiario esté adscrito a una **institución de educación superior o centro de investigación** registrado en el Reniecyt. Si te vas a la industria sin mantener una adscripción académica, técnicamente dejas de cumplir el requisito y no puedes renovar ni cobrar el estímulo.
+
+**Opciones para mantenerlo:**
+1. **Adscripción parcial:** Algunas universidades permiten mantener una figura de "investigador asociado" o "profesor de asignatura" con carga mínima, lo cual podría preservar tu elegibilidad. Verifica con la institución y con Conahcyt.
+2. **Cátedras o nombramientos honorarios:** Algunas instituciones ofrecen nombramientos de investigador visitante o emérito que pueden mantener la adscripción formal.
+
+**La realidad económica:** El estímulo del SNII nivel I es de ~$18,500 MXN mensuales (2025). En muchos roles cuantitativos de la industria, esa cifra se recupera con creces en la diferencia salarial. Si tu decisión de permanecer en la academia depende exclusivamente del SNII, el cálculo económico probablemente favorece a la industria. Pero el SNII no es solo dinero: es reconocimiento, y eso tiene un valor simbólico que cada quien debe ponderar.
+
+> ⚠️ *La normativa del SNII cambia frecuentemente. Consulta siempre la convocatoria vigente en [conahcyt.mx](https://conahcyt.mx/) antes de tomar una decisión.*
+
+</details>
+
+<details>
+<summary><strong>¿Qué pasa si no sé nada de programación o nunca he usado Python?</strong></summary>
+
+**Es un gap que debes cerrar antes de aplicar, pero no es un obstáculo insalvable.** Un científico que hizo su tesis en Mathematica, MATLAB, Fortran, C++ o incluso Excel con macros ya tiene el pensamiento computacional. Python es otro lenguaje, no otro paradigma.
+
+**Ruta mínima viable (4-8 semanas de estudio enfocado):**
+1. **Semana 1-2:** [Python for Everybody (Coursera, gratuito)](https://www.coursera.org/specializations/python) — Fundamentos de sintaxis.
+2. **Semana 3-4:** pandas, numpy y matplotlib — El tridente de análisis de datos en Python. Practica con datasets reales en [Kaggle](https://www.kaggle.com/).
+3. **Semana 5-6:** scikit-learn — Regresión, clasificación y validación cruzada.
+4. **Semana 7-8:** Un mini-proyecto propio para GitHub (ver Paso 4 del playbook).
+
+**Lo que NO necesitas para tu primer empleo:** No necesitas dominar PyTorch, TensorFlow, Kubernetes ni arquitecturas de microservicios. Necesitas Python funcional, SQL, y la capacidad de resolver problemas de forma estructurada. El resto lo aprendes en el trabajo.
+
+</details>
+
+<details>
+<summary><strong>¿Data Science ya está saturado? ¿Tiene sentido entrar ahora?</strong></summary>
+
+**Los puestos genéricos de "Data Scientist junior que hace dashboards" sí están saturados.** El mercado está lleno de bootcamp graduates que aprendieron a llamar `model.fit()` sin entender qué hay debajo. Contra ese perfil, un científico con posgrado NO debería competir — es pelear en el ring equivocado.
+
+**Lo que NO está saturado** (y donde el perfil STEM cuantitativo tiene ventaja enorme):
+- **Quant / Risk / Model Validation** en finanzas — requiere matemáticas que un bootcamp no enseña.
+- **ML Engineering** con énfasis en optimización y escalabilidad — requiere pensamiento algorítmico profundo.
+- **Decision Science / Analytics Strategy** — requiere capacidad de formular problemas desde primeros principios, no solo ejecutar pipelines.
+- **Ciencia de datos en dominios especializados** (pharma, energía, manufactura, telecomunicaciones) — requiere entender la física o la biología del problema, no solo los datos.
+
+**La tendencia con IA Generativa:** Los modelos de lenguaje están automatizando las tareas más rutinarias de Data Science (limpieza de datos, EDA, generación de código boilerplate). Esto elimina los puestos donde el valor era "saber teclear", pero **amplifica** el valor de quien tiene criterio para auditar, interpretar y decidir. Ese es exactamente el perfil del científico.
+
+</details>
+
+---
+
 ## 🤝 Cómo Contribuir o Contactar
 
 Esta es una iniciativa viva y de código abierto para apoyar a la comunidad científica en su transición hacia la industria cuantitativa y de tecnología.
 
-* Si tienes sugerencias de recursos o mejoras, abre un **Pull Request** o inicia una discusión en los **Issues**.
-* Conéctate conmigo en LinkedIn: **[Dr. Iván Heredia de la Cruz](https://www.linkedin.com/in/ivheredia/)**  
-* Conoce mi perfil y trayectoria: **[ivheredia en GitHub](https://github.com/ivheredia)**
+### 💬 Comparte tu historia
+¿Hiciste la transición de la academia a la industria? Tu experiencia puede ayudar a alguien que está donde tú estuviste. Compártela en [GitHub Discussions](https://github.com/ivheredia/de-la-academia-a-la-industria/discussions) — no necesitas saber Git, solo una cuenta de GitHub.
+
+### 🔧 Contribuye al playbook
+Si quieres proponer mejoras, corregir errores o agregar recursos, consulta la [Guía de Contribución](CONTRIBUTING.md) para saber cómo hacerlo.
+
+### 📬 Contacto directo
+* LinkedIn: **[Dr. Iván Heredia de la Cruz](https://www.linkedin.com/in/ivheredia/)**  
+* GitHub: **[ivheredia](https://github.com/ivheredia)**
 
 ---
 
