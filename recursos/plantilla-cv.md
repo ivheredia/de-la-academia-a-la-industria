@@ -55,35 +55,40 @@ Llevas 5, 10 o 15 años en la academia y das el salto, o ya tienes algún puesto
 
 ### 1. Encabezado Claro y Directo
 * **Nombre completo en grande.**
-* **Título objetivo (NO tu grado académico aislado):** En lugar de solo poner *"Doctor en Física"*, pon tu rol objetivo:  
-  *Ejemplo:* `Quantitative Researcher | Decision Scientist | Applied Data Scientist`.
+* **Título objetivo (NO tu grado académico aislado):** En lugar de solo poner *"Doctor en Matemáticas"* o *"Físico"*, pon tu rol objetivo:  
+  *Ejemplo:* `Data Scientist | Quantitative Researcher | Machine Learning Engineer`.
 * **Contacto mínimo:** Teléfono con código de país, correo electrónico sobrio, enlace a LinkedIn y enlace a GitHub.
 * ⚠️ **Sin fecha:** Nunca pongas fecha al documento (como `09/2026`). En la industria un CV no se fecha; puede hacer que parezca viejo meses después o confundir a los sistemas ATS.
 
 ### 2. Resumen Profesional (*Professional Summary*) — Máximo 3 o 4 líneas
-Debe responder tres preguntas de inmediato:
-1. ¿Quién eres analíticamente?
-2. ¿Qué problemas sabes resolver?
-3. ¿Cómo combinas tu rigor con herramientas de producción?
+Debe responder tres preguntas de inmediato y sin jerga inflada:
+1. ¿Cuál es tu base analítica o disciplina cuantitativa?
+2. ¿Qué herramientas de cómputo y modelado dominas?
+3. ¿A qué retos o sector quieres aplicar ese rigor (finanzas, tecnología, industria)?
 
 ### 3. Habilidades Clave (*Core Skills*)
-Divídelas en categorías claras para demostrar equilibrio entre técnica y negocio:
-* **Technical & Quantitative:** Modelado estadístico, optimización matemática, series de tiempo, ML supervisado/no supervisado, Python (pandas, numpy, scikit-learn, scipy), SQL, Git, Linux/Bash.
-* **Business & Strategy:** Ciencia de decisiones, traducción negocio-técnica, diseño experimental, comunicación ejecutiva a stakeholders, metodologías ágiles.
-* **Languages:** Nivel de idiomas profesional.
+Estructuradas en categorías defendibles en una entrevista técnica:
+* **Quantitative & Analytical:** Inferencia estadística, modelado matemático y análisis de incertidumbre. Selecciona solo lo que domines: optimización numérica, simulación estocástica (Monte Carlo), machine learning, series de tiempo o investigación de operaciones.
+* **Programming & Tools:** Python (numpy, scipy, pandas), Git, terminal Linux/Bash. Agrega en corchetes lo que de verdad domines: SQL, R, C++, herramientas cloud (AWS/GCP).
+* **Methodological & Professional:** Habilidades reales de investigación: formulación de problemas complejos, validación de hipótesis, redacción técnica y trabajo multidisciplinario. *(Solo si tuviste proyectos aplicados o pasantías: agrega gestión de proyectos o metodologías ágiles).*
+* **Languages:** Idiomas y nivel profesional.
 
-### 4. Experiencia e Investigación Aplicada (*Experience & Applied Research*)
+### 4. Experiencia y Proyectos Aplicados (*Experience & Applied Projects*)
 > 💡 **Nota crucial sobre el impacto:** No crees una sección separada de "Selected Impact" al fondo del CV. Cada viñeta de tu experiencia debe llevar el impacto integrado con la fórmula:  
-> **[Verbo de acción] + [Problema / Contexto técnico] + [Resultado o Métrica de impacto]**.
+> **[Verbo de acción enérgica] + [Problema / Contexto técnico] + [Métrica técnica o de impacto]**.
 
-* **Si vienes de academia (Tesis / Posdoc / Proyectos de investigación):**
-  - *No digas:* "Cálculo de diagramas de Feynman para colisiones de partículas" ni "Simulación de plegamiento de proteínas por acoplamiento alostérico".
-  - *Di:* "Diseñé algoritmos de optimización y modelos estadísticos sobre conjuntos de datos complejos, reduciendo los tiempos de cómputo en un 35% mediante paralelización y código modular".
-  - *Dirección o colaboración en proyectos:* "Mentoría y liderazgo técnico de equipos en modelado cuantitativo, reproducibilidad con Git y estándares internacionales de calidad y entrega".
+* **Verbos recomendados de ejecución (creíbles y defendibles):** *Implementé, Desarrollé, Analicé, Construí, Optimicé, Modelé, Automaticé, Evalué, Documenté.*  
+  *(Evita verbos directivos como "Diseñé la estrategia corporativa" si tu rol fue de implementación técnica).*
+* **Si vienes directo de academia (Tesis / Posdoc / Portafolio de GitHub):**
+  - *No digas:* "Cálculo analítico de diagramas de dispersión" ni "Simulación de plegamiento de proteínas por acoplamiento alostérico".
+  - *Di:* "Desarrollé algoritmos de optimización y modelos estadísticos en Python, reduciendo los tiempos de ejecución en un 35% mediante vectorización y código modular".
+* **¿Y si trabajaste en empresa o pasantías entre grados? (El valor del *time-to-market*):**
+  - Si tuviste alguna experiencia previa en industria, pasantía o consultoría aplicada, **resalta el impacto en el negocio**. Entender *por qué* implementaste una solución y cómo benefició a la organización es sumamente apreciado:  
+    *Ejemplo:* *"Desarrollé módulos reproducibles en Python para la automatización de reportes analíticos, acelerando el tiempo de entrega (time-to-market) en un 40% frente al proceso manual previo."*
 
 ### 5. Formación Académica y Credenciales (*Education & Credentials*)
 Sé conciso. Grado, institución, ciudad y año de graduación.  
-Si tienes certificaciones de industria (Cloud, Agile, etc.) o reconocimientos competitivos de investigación, agrégalos aquí explicando qué demuestran: excelencia en resolución de problemas complejos y rigor continuo.
+Si tienes cursos de especialización técnica, certificaciones (Cloud, etc.) o reconocimientos competitivos de investigación, colócalos aquí brevemente demostrando rigor continuo.
 
 ---
 
