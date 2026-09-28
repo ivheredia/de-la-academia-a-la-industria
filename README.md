@@ -167,7 +167,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 ## 🔧 6. Herramientas Indispensables que NO te Enseñaron en la Universidad
 
-Tu formación científica te dio el pensamiento analítico más poderoso del mercado. Pero la industria asume que dominas ciertas herramientas operativas que rara vez se enseñan en un posgrado de ciencias. La buena noticia: con tu capacidad de aprendizaje autónomo, las puedes dominar en semanas, no en años.
+Tu formación científica te dio una base analítica y lógica muy sólida. Pero la industria asume que dominas ciertas herramientas operativas que rara vez se enseñan en un posgrado de ciencias. La buena noticia: con tu capacidad de aprendizaje autónomo, las puedes dominar en semanas, no en años.
 
 > ⚠️ **Un notebook no es software: es un borrador exploratorio.**  
 > La industria exige, por lo general, proyectos que corran directa y completamente desde la terminal (`.py`), organizados en módulos, con dependencias reproducibles y pruebas básicas. ¡No hay manera de que un notebook pase a producción!
@@ -278,7 +278,7 @@ Para estudiantes de últimos semestres, recién egresados y científicos en tran
 <details>
 <summary><strong>¿Necesito una maestría en finanzas o un MBA para entrar a un banco o fondo de inversión?</strong></summary>
 
-**No.** Un doctorado en ciencias exactas (física, matemáticas, ingeniería, cómputo) con base cuantitativa sólida es un credencial *superior* al MBA para roles cuantitativos (Quant, Risk, Model Validation, Data Science). Los bancos de inversión y fondos contratan Ph.D. en física y matemáticas desde hace décadas precisamente porque la formación en modelado estocástico, métodos numéricos y pensamiento bajo incertidumbre es difícil de replicar con un programa de maestría generalista.
+**No.** Un posgrado en ciencias exactas (física, matemáticas, ingeniería, cómputo) con base cuantitativa sólida te da una base matemática mucho más profunda que un MBA para roles técnicos (Quant, Risk, Model Validation, Data Science). Los bancos de inversión y fondos contratan perfiles cuantitativos avanzados desde hace décadas precisamente porque la formación en modelado estocástico, métodos numéricos y pensamiento bajo incertidumbre es difícil de replicar con un programa de maestría generalista.
 
 Lo que sí necesitas es **aprender el vocabulario financiero** (qué es un swap, cómo se valúa una opción, qué es el VaR) y entender el contexto regulatorio. Eso lo consigues leyendo Hull (3-4 semanas de lectura enfocada), no cursando un MBA de 2 años.
 
@@ -352,12 +352,25 @@ Después de 5+ años, el camino de regreso se complica: tus publicaciones se enf
 </details>
 
 <details>
+<summary><strong>¿Por qué la guía insiste tanto en Python? ¿Qué pasa con R, C++, MATLAB o Julia? ¿Y por qué SQL y Bash?</strong></summary>
+
+No hay nada de malo con otros lenguajes. De hecho, en áreas específicas varios superan a Python por mucho. La razón de priorizar este conjunto de herramientas no es académica, es puramente práctica: **empleabilidad, colaboración y operación real en la empresa**:
+
+* **Python:** Es el lenguaje universal y estándar común de la industria hoy en día. No es el más rápido para correr cálculos pesados, pero te permite hacer todo en el mismo lugar: jalar datos, entrenar un modelo, crear una API para que otros lo consuman y conectarlo a la nube.
+* **¿Y R?** Es una maravilla para estadística rigurosa, econometría y bioestadística. El dolor de cabeza viene cuando el equipo de ingeniería de software tiene que poner tu modelo en producción o conectarlo con los sistemas de la empresa; casi siempre te pedirán migrarlo a Python para no mantener dos ecosistemas distintos.
+* **¿Y C++?** Si en tu posgrado científico programaste en C++ de verdad, no lo escondas: para áreas como *High-Frequency Trading* (HFT), pricing de derivados exóticos y simulaciones de ultra baja latencia, C++ es el rey indiscutible y se paga muy bien. La razón de no recomendarlo como lenguaje de entrada general es que para la gran mayoría de los roles analíticos el ciclo de desarrollo en C++ es demasiado lento comparado con Python.
+* **¿Y MATLAB, Mathematica o Julia?** En la empresa moderna casi nadie despliega en producción con MATLAB o Mathematica (las licencias son carísimas y no encajan en la nube). Julia es una joya técnica, pero su adopción en empresas todavía es muy pequeña comparada con la demanda laboral de Python.
+* **¿Por qué SQL y Bash no son opcionales?** Porque aquí se acaba la teoría y empieza el trabajo manual: **SQL** es indispensable porque nadie te va a llevar los datos a tu escritorio en un archivo de Excel; tienes que ir tú a las bases de datos a extraerlos. Y **Bash (terminal Linux)** es básico porque los modelos no corren en tu laptop, corren en servidores y en la nube. Si no sabes moverte en una terminal, dependes de alguien más para hacer cualquier cosa.
+
+</details>
+
+<details>
 <summary><strong>¿Data Science ya está saturado? ¿Tiene sentido entrar ahora?</strong></summary>
 
-**Los puestos genéricos de "Data Scientist junior que hace dashboards" sí están saturados.** El mercado está lleno de bootcamp graduates que aprendieron a llamar `model.fit()` sin entender qué hay debajo. Contra ese perfil, un científico con posgrado NO debería competir — es pelear en el ring equivocado.
+**Los puestos genéricos de "Data Scientist junior que hace dashboards" sí están saturados.** El mercado laboral se inundó de perfiles que aprendieron a tirar `model.fit()` y `predict()` sin entender qué supuestos matemáticos hay debajo ni cuándo el modelo se rompe. Ese segmento de copiar y pegar recetas está saturadísimo. Contra eso, un científico con posgrado NO debería competir — es pelear en el ring equivocado.
 
 **Lo que NO está saturado** (y donde el perfil STEM cuantitativo tiene ventaja enorme):
-- **Quant / Risk / Model Validation** en finanzas — requiere matemáticas que un bootcamp no enseña.
+- **Quant / Risk / Model Validation** en finanzas — requiere matemáticas que no se aprenden en un tutorial rápido.
 - **ML Engineering** con énfasis en optimización y escalabilidad — requiere pensamiento algorítmico profundo.
 - **Decision Science / Analytics Strategy** — requiere capacidad de formular problemas desde primeros principios, no solo ejecutar pipelines.
 - **Ciencia de datos en dominios especializados** (pharma, energía, manufactura, telecomunicaciones) — requiere entender la física o la biología del problema, no solo los datos.
