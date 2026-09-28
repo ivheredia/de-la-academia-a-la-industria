@@ -76,14 +76,14 @@ Divídelas en categorías claras para demostrar equilibrio entre técnica y nego
 > 💡 **Nota crucial sobre el impacto:** No crees una sección separada de "Selected Impact" al fondo del CV. Cada viñeta de tu experiencia debe llevar el impacto integrado con la fórmula:  
 > **[Verbo de acción] + [Problema / Contexto técnico] + [Resultado o Métrica de impacto]**.
 
-* **Si vienes de academia (Tesis / Posdoc / Cátedra):**
-  - *No digas:* "Cálculo de diagramas de Feynman para colisiones de hadrones".
-  - *Di:* "Diseñé algoritmos de clasificación señal-ruido sobre datasets de alta dimensionalidad (~PB), optimizando el tiempo de cómputo en clústeres HPC en un 35% mediante paralelización".
-  - *Dirección de tesis:* "Mentoría y liderazgo técnico de equipos de posgrado en modelado estadístico, control de versiones (Git) y estándares internacionales de entrega".
+* **Si vienes de academia (Tesis / Posdoc / Proyectos de investigación):**
+  - *No digas:* "Cálculo de diagramas de Feynman para colisiones de partículas" ni "Simulación de plegamiento de proteínas por acoplamiento alostérico".
+  - *Di:* "Diseñé algoritmos de optimización y modelos estadísticos sobre conjuntos de datos complejos, reduciendo los tiempos de cómputo en un 35% mediante paralelización y código modular".
+  - *Dirección o colaboración en proyectos:* "Mentoría y liderazgo técnico de equipos en modelado cuantitativo, reproducibilidad con Git y estándares internacionales de calidad y entrega".
 
 ### 5. Formación Académica y Credenciales (*Education & Credentials*)
 Sé conciso. Grado, institución, ciudad y año de graduación.  
-Si tienes certificaciones de industria (BMV, Cloud, etc.) o reconocimientos nacionales (como el SNII), agrégalos aquí explicando qué demuestran: excelencia en resolución de problemas complejos y rigor continuo.
+Si tienes certificaciones de industria (Cloud, Agile, etc.) o reconocimientos competitivos de investigación, agrégalos aquí explicando qué demuestran: excelencia en resolución de problemas complejos y rigor continuo.
 
 ---
 
@@ -92,7 +92,7 @@ Si tienes certificaciones de industria (BMV, Cloud, etc.) o reconocimientos naci
 | ❌ Lo que debes evitar | ✅ Lo que debes hacer |
 | :--- | :--- |
 | Barras de porcentaje de habilidades (*"Python 90%"*). | Mencionar las herramientas en contexto de proyectos reales. |
-| Incluir tu lista completa de 20+ artículos científicos. | Sintetizar tu productividad en 1 viñeta de impacto o enlazar a tu Google Scholar / INSPIRE-HEP. |
+| Incluir una lista exhaustiva de publicaciones (5+ artículos científicos). | Sintetizar tu productividad en 1 sola viñeta de impacto o enlazar a tu perfil público (Google Scholar, ORCID). |
 | Diseños en dos columnas con gráficos que rompen los ATS. | Diseño en una sola columna, tipografía limpia y texto plano legible por máquinas. |
 | Currículum de 4 o 5 cuartillas. | **Una sola cuartilla** contundente (máximo 2 si tienes más de 10 años de experiencia mixta). |
 | Tecnicismos herméticos de tu subdisciplina. | Términos universales de la industria: optimización, simulación estocástica, clasificación, pipelines. |
