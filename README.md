@@ -169,7 +169,8 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 Tu formación científica te dio el pensamiento analítico más poderoso del mercado. Pero la industria asume que dominas ciertas herramientas operativas que rara vez se enseñan en un posgrado de ciencias. La buena noticia: con tu capacidad de aprendizaje autónomo, las puedes dominar en semanas, no en años.
 
-> ⚠️ **Un Jupyter Notebook NO es un entregable de software:** En investigación es habitual asumir que un archivo `.ipynb` es el producto final. En la industria, los notebooks son solo para prototipado y exploración visual. Un equipo técnico busca scripts `.py` modulares, funciones limpias y reproducibilidad; un notebook con variables globales y celdas desordenadas genera descarte inmediato.
+> ⚠️ **Un notebook no es software: es un borrador exploratorio.**  
+> La industria exige, por lo general, proyectos que corran directa y completamente desde la terminal (`.py`), organizados en módulos, con dependencias reproducibles y pruebas básicas. ¡No hay manera de que un notebook pase a producción!
 
 ### 🗄️ SQL (Structured Query Language)
 * **Por qué es obligatorio:** En la industria, los datos viven en bases de datos relacionales. Sin SQL no puedes extraer, filtrar ni cruzar la información que alimenta tus modelos. Es tan fundamental como saber leer.
