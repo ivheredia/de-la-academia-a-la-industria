@@ -30,13 +30,13 @@ No todos transitan en el mismo momento. Adapta el orden según tu situación:
 ### Caso A: Transición directa (Recién egresado, Maestro, Doctor o Posdoc)
 *Es el caso más común.* Vienes con el estigma de ser "teórico" o de haber trabajado solo en problemas abstractos.
 * **Orden recomendado:**  
-  $$\text{Summary} \longrightarrow \mathbf{\text{Core Skills}} \longrightarrow \text{Experience \& Applied Research} \longrightarrow \text{Education}$$
+  `Summary` ➔ **`Core Skills`** ➔ `Experience & Applied Research` ➔ `Education`
 * **Por qué:** Colocar las habilidades técnicas (Python, SQL, Git, Linux, Estadística) inmediatamente debajo del resumen disipa en 5 segundos el miedo del reclutador: demuestra de entrada que eres operativo y sabes programar.
 
 ### Caso B: Transición tardía (Años como profesor-investigador titular o con experiencia previa en industria)
 Llevas 5, 10 o 15 años en la academia y das el salto, o ya tienes algún puesto corporativo previo.
 * **Orden recomendado:**  
-  $$\text{Summary} \longrightarrow \mathbf{\text{Professional Experience}} \longrightarrow \text{Core Skills} \longrightarrow \text{Education}$$
+  `Summary` ➔ **`Professional Experience`** ➔ `Core Skills` ➔ `Education`
 * **Por qué:** Aquí tu mayor activo es el liderazgo de proyectos grandes, presupuestos y mentoría. Agrupa tu etapa académica en un solo bloque sólido (*«Investigación Científica & Cómputo de Alto Rendimiento»*) en lugar de listar nombramientos anuales menores que solo saturan la página.
 
 ---
