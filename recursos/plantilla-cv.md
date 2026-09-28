@@ -27,11 +27,21 @@ Esta plantilla condensa el formato y la estructura probados en el sector bancari
 
 No todos transitan en el mismo momento. Adapta el orden según tu situación:
 
-### Caso A: Transición directa (Recién egresado, Maestro, Doctor o Posdoc)
+### Caso A: Transición directa desde la academia
 *Es el caso más común.* Vienes con el estigma de ser "teórico" o de haber trabajado solo en problemas abstractos.
+
 * **Orden recomendado:**  
-  `Summary` ➔ **`Core Skills`** ➔ `Experience & Applied Research` ➔ `Education`
-* **Por qué:** Colocar las habilidades técnicas (Python, SQL, Git, Linux, Estadística) inmediatamente debajo del resumen disipa en 5 segundos el miedo del reclutador: demuestra de entrada que eres operativo y sabes programar.
+  `Summary` ➔ **`Core Skills`** ➔ `Experience & Projects` ➔ `Education`
+* **Por qué:** Colocar las habilidades técnicas (Python, SQL, Git, Linux, Estadística) inmediatamente debajo del resumen disipa en 5 segundos la duda del reclutador: demuestra de entrada que eres operativo.
+
+#### Cómo adaptar el bloque de "Experiencia" según tu grado:
+
+| Grado de partida | Nombre recomendado del bloque | Enfoque clave que debes evidenciar |
+| :--- | :--- | :--- |
+| **Licenciatura (Recién egresado)** | `Applied & Technical Projects` | Foco en repositorios de GitHub, hackathons o prácticas. Demuestra que sabes construir código funcional fuera de un examen. |
+| **Maestría (M.Sc.)** | `Quantitative Research & Applied Development` | Vende tu tesis como un proyecto E2E de 1.5–2 años con entregables concretos, manejo de datos y código modular. |
+| **Doctorado (Ph.D.)** | `Quantitative Research & Algorithm Development` | Vende el posgrado como 3–5 años de investigación y desarrollo algorítmico independiente. Enfatiza pipelines, optimización numérica y pragmatismo (cero jerga académica abstracta). |
+| **Posdoc** | `Postdoctoral Research Fellow / Senior Quant` | Trátalo como rol profesional sénior autónomo. Resalta liderazgo técnico, gestión de proyectos/recursos y mentoría. |
 
 ### Caso B: Transición tardía (Años como profesor-investigador titular o con experiencia previa en industria)
 Llevas 5, 10 o 15 años en la academia y das el salto, o ya tienes algún puesto corporativo previo.
