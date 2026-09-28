@@ -55,10 +55,9 @@ Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desd
 * **Criterio de búsqueda:** Busca un giro que te inspire o te rete técnicamente. La capacidad analítica avanzada se marchita en problemas triviales.
 
 ### Paso 4: Portafolio en GitHub (Tu Prueba Técnica Indispensable)
-* En la industria, tu GitHub es la prueba fehaciente de que sabes programar de forma limpia y estructurada.
-* **Evita ejemplos típicos de tutoriales:** No subas el dataset del Titanic o la clasificación de flores Iris.
-* ⚠️ **Un Jupyter Notebook NO es un producto de software terminado:** Es común asumir que un `.ipynb` es el entregable final. En la industria, los notebooks son herramientas de experimentación y prototipado visual. Tu portafolio debe demostrar que sabes estructurar código modular en scripts `.py` organizados, con funciones documentadas, manejo de errores y pruebas básicas. Un notebook con celdas ejecutadas y variables globales lo descarta de inmediato un equipo técnico serio.
-* Sube 2 o 3 proyectos propios con código modular, buenas prácticas y un `README.md` ejecutivo corto que explique:
+* En la industria, tu GitHub es la prueba de que sabes programar de forma limpia y estructurada.
+* **Evita ejemplos de tutorial:** Nada de Titanic ni flores Iris.
+* **Sube 2 o 3 proyectos propios con código modular en Python (`.py`, no solo notebooks):** Incluye buenas prácticas y un `README.md` ejecutivo corto que explique:
   1. Qué problema cuantitativo o de negocio se abordó.
   2. Qué supuestos y metodología se utilizaron.
   3. Qué resultados e impacto se obtuvieron.
@@ -169,6 +168,8 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 ## 🔧 6. Herramientas Indispensables que NO te Enseñaron en la Universidad
 
 Tu formación científica te dio el pensamiento analítico más poderoso del mercado. Pero la industria asume que dominas ciertas herramientas operativas que rara vez se enseñan en un posgrado de ciencias. La buena noticia: con tu capacidad de aprendizaje autónomo, las puedes dominar en semanas, no en años.
+
+> ⚠️ **Un Jupyter Notebook NO es un entregable de software:** En investigación es habitual asumir que un archivo `.ipynb` es el producto final. En la industria, los notebooks son solo para prototipado y exploración visual. Un equipo técnico busca scripts `.py` modulares, funciones limpias y reproducibilidad; un notebook con variables globales y celdas desordenadas genera descarte inmediato.
 
 ### 🗄️ SQL (Structured Query Language)
 * **Por qué es obligatorio:** En la industria, los datos viven en bases de datos relacionales. Sin SQL no puedes extraer, filtrar ni cruzar la información que alimenta tus modelos. Es tan fundamental como saber leer.
