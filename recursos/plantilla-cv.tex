@@ -15,10 +15,10 @@
 
 % Márgenes optimizados para aprovechar la página sin saturarla
 \usepackage[paper=letterpaper,
-            top=1.3cm,
-            bottom=1.3cm,
-            left=1.5cm,
-            right=1.5cm]{geometry}
+            top=1.2cm,
+            bottom=1.2cm,
+            left=1.6cm,
+            right=1.6cm]{geometry}
 
 \setlength{\parindent}{0in}
 \usepackage{enumitem}
@@ -28,6 +28,7 @@
 % Enlaces e iconos limpios
 \usepackage{color,hyperref}
 \definecolor{darkblue}{rgb}{0.0,0.0,0.4}
+\definecolor{rulecolor}{gray}{0.35}
 \hypersetup{colorlinks,breaklinks,
             linkcolor=darkblue,urlcolor=darkblue,
             anchorcolor=darkblue,citecolor=darkblue}
@@ -36,11 +37,11 @@
 
 % Encabezados de sección limpios y compatibles con ATS
 \newcommand{\cvsection}[1]{%
-  \vspace{0.3cm}%
+  \vspace{0.35cm}%
   {\bfseries\large\scshape #1}%
-  \vspace{0.05cm}%
-  \hrule height 0.6pt%
-  \vspace{0.18cm}%
+  \vspace{0.06cm}%
+  {\color{rulecolor}\hrule height 0.5pt}%
+  \vspace{0.2cm}%
 }
 
 \newcommand{\semilarge}{\fontsize{14}{16.5}\selectfont}
@@ -51,8 +52,8 @@
 % 1. ENCABEZADO (Directo, sin foto y SIN fecha de creación de documento)
 % ==============================================================================
 \begin{center}
-  {\semilarge \textbf{[Tu Nombre y Apellidos]}} \\[0.1cm]
-  {\large \textit{[Rol Objetivo: ej. Data Scientist \textbar \ Quantitative Researcher \textbar \ Machine Learning Engineer]}} \\[0.15cm]
+  {\semilarge \textbf{[Tu Nombre y Apellidos]}} \\[0.12cm]
+  {\large \textit{[Rol Objetivo: ej. Data Scientist \textbar \ Quantitative Researcher \textbar \ Machine Learning Engineer]}} \\[0.18cm]
   \small
   \faPhone~[+52] [Tu Teléfono] \quad \textbar \quad
   \faEnvelope~\href{mailto:tu-correo@email.com}{tu-correo@email.com} \quad \textbar \quad
@@ -60,15 +61,15 @@
   \faGithub~\href{https://github.com/tu-usuario}{github.com/tu-usuario}
 \end{center}
 
-\vspace{-0.1cm}
+\vspace{-0.05cm}
+{\color{rulecolor}\hrule height 0.3pt}
 
 % ==============================================================================
 % 2. RESUMEN PROFESIONAL (3-4 líneas: quién eres analíticamente y qué resuelves)
 % ==============================================================================
 \cvsection{Professional Summary}
-\textit{\small
+\small
 [Graduado en Matemáticas / Maestro en Ciencias / Investigador Ph.D.] con sólida base analítica en [modelado cuantitativo, inferencia estadística y análisis de datos]. Experiencia en desarrollo de algoritmos, simulación computacional y programación modular en [Python / SQL / etc.]. Enfocado en aplicar rigor metodológico y resolución estructurada de problemas a retos analíticos del sector [tecnológico / financiero / industrial].
-}
 
 % ==============================================================================
 % 3. HABILIDADES CLAVE (Visible de inmediato para superar el filtro inicial)
@@ -79,13 +80,13 @@
 \small
 \textbf{Quantitative \& Analytical:} Modelado Matemático, Inferencia Estadística, Análisis de Incertidumbre; [Elige tus fortalezas: Optimización Numérica / Simulación Estocástica (Monte Carlo) / Machine Learning / Series de Tiempo / Investigación de Operaciones].
 
-\vspace{0.08cm}
+\vspace{0.1cm}
 \textbf{Programming \& Tools:} Python (numpy, scipy, [pandas / scikit-learn si aplica]), Control de Versiones (Git), Linux/Bash; [SQL / R / C++ / Cloud si aplica].
 
-\vspace{0.08cm}
+\vspace{0.1cm}
 \textbf{Methodological \& Professional:} Formulación de Problemas Complejos, Validación de Hipótesis, Comunicación Técnica y Síntesis de Resultados, Trabajo Colaborativo Multidisciplinario; [Opcional si tuviste proyectos aplicados: Gestión de Proyectos / Metodologías Ágiles / Relación con Usuarios].
 
-\vspace{0.08cm}
+\vspace{0.1cm}
 \textbf{Languages:} Español (Nativo); Inglés (Profesional / Lectura y Escritura Técnica).
 
 % ==============================================================================
@@ -101,25 +102,19 @@
 
 % BLOQUE 1: Tu proyecto principal de investigación, tesis o rol laboral previo
 \textbf{[Cargo / Título del Proyecto: ej. Investigador Cuantitativo \textbar \ Tesis de Posgrado \textbar \ Analista]} \textbar \ \textbf{[Institución / Empresa]}, \textit{[Ciudad, País]} \hfill \textit{[Año -- Presente / Año]}
-\vspace{-0.15cm}
-\begin{itemize}[leftmargin=0.4cm] \small
+\begin{itemize}[leftmargin=0.4cm, itemsep=2pt, parsep=0pt, topsep=3pt] \small
   \item Implementé modelos de [simulación / ML / optimización] para resolver [problema o análisis sobre dataset], alcanzando [métrica: precisión del X\% / reducción de varianza o error].
-  \vspace{-0.22cm}
   \item Desarrollé módulos reproducibles y pipelines en [Python / R / C++], reduciendo los tiempos de ejecución en un [X\%] mediante [vectorización / refactorización / paralelización].
-  \vspace{-0.22cm}
   \item Documenté supuestos, metodología y código mediante Git; [Opcional si fue en empresa o proyecto aplicado: acelerando el tiempo de entrega (*time-to-market*) en un X\% frente a la línea base previa o facilitando la adopción por usuarios finales].
 \end{itemize}
 
-\vspace{-0.15cm}
+\medskip
 
 % BLOQUE 2: Segundo proyecto relevante (investigación previa, proyecto de GitHub o prácticas)
 \textbf{[Proyecto Técnico Independiente \textbar \ Asistente de Investigación \textbar \ Prácticas]} \textbar \ \textbf{[Centro / Plataforma / Univ.]} \hfill \textit{[Año -- Año]}
-\vspace{-0.15cm}
-\begin{itemize}[leftmargin=0.4cm] \small
+\begin{itemize}[leftmargin=0.4cm, itemsep=2pt, parsep=0pt, topsep=3pt] \small
   \item Diseñé un flujo de punta a punta para extracción, limpieza y análisis cuantitativo de [datos públicos / problema abierto] utilizando [Python / SQL].
-  \vspace{-0.22cm}
   \item Evalué y comparé [N] aproximaciones metodológicas, delimitando condiciones de frontera, supuestos e incertidumbre estadística.
-  \vspace{-0.22cm}
   \item Coordiné entregables técnicos con [N] colaboradores; publiqué código modular y pruebas en GitHub ([enlace al repositorio]), garantizando reproducibilidad completa.
 \end{itemize}
 
@@ -132,7 +127,7 @@
 \textbf{M.Sc. en [Área Cuantitativa / Científica]} \textbar \ [Institución, Ciudad] \hfill \textit{[Año]} \\
 \textbf{B.Sc. en [Licenciatura / Ingeniería]} \textbar \ [Institución, Ciudad] \hfill \textit{[Año]}
 
-\vspace{0.08cm}
+\vspace{0.12cm}
 \textbf{Credenciales y Cursos Complementarios:} [Certificación o distinción relevante: ej. Cloud Solutions Architect / Cursos Especializados / Distinción Académica], demostrando excelencia analítica y rigor metodológico continuo.
 
 \end{document}
