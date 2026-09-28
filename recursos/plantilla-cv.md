@@ -6,13 +6,20 @@ Esta plantilla condensa el formato y la estructura probados en el sector bancari
 
 ---
 
-## 📥 Archivo Fuente en LaTeX
+## 👁️ Vista Rápida del Formato Compilado
 
-Puedes descargar o copiar directamente la plantilla en LaTeX para compilarla en tu computadora o en [Overleaf](https://www.overleaf.com/):
+<p align="center">
+  <a href="./plantilla-cv.pdf">
+    <img src="./plantilla-cv-preview.png" alt="Vista previa de la Plantilla de CV de 1 cuartilla" width="85%" style="border: 1px solid #d0d7de; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
+  </a>
+</p>
 
-👉 **[Descargar / Ver `plantilla-cv.tex`](./plantilla-cv.tex)**
+## 📥 Descarga y Uso
 
-*Compatible con `pdflatex` y cualquier editor estándar de LaTeX.*
+* 📄 **[Descargar PDF Compilado (`plantilla-cv.pdf`)](./plantilla-cv.pdf)** — Para ver el render final o usar de referencia visual.
+* 🛠️ **[Código Fuente en LaTeX (`plantilla-cv.tex`)](./plantilla-cv.tex)** — Cópialo o ábrelo en [Overleaf](https://www.overleaf.com/) (`pdflatex`) para personalizarlo con tus datos.
+
+*Compatible al 100% con `pdflatex` y cualquier editor estándar de LaTeX.*
 
 ---
 
