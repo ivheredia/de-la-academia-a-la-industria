@@ -1,6 +1,7 @@
 % ==============================================================================
-% PLANTILLA DE CV PARA TRANSICIÓN STEM -> INDUSTRIA
-% Basada en el formato de una sola página para perfiles cuantitativos.
+% PLANTILLA DE CV DE 1 PÁGINA PARA PERFILES STEM EN TRANSICIÓN A LA INDUSTRIA
+% Diseñada para graduados, posdocs y científicos que buscan su primer o segundo
+% rol corporativo (Data Science, Quant, Machine Learning, Decision Science).
 % Compatible con Overleaf (compilar con pdfLaTeX).
 % ==============================================================================
 
@@ -12,7 +13,7 @@
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 
-% Configuración de márgenes compactos para diseño de 1 sola página
+% Márgenes optimizados para aprovechar la página sin saturarla
 \usepackage[paper=letterpaper,
             top=1.3cm,
             bottom=1.3cm,
@@ -22,114 +23,111 @@
 \setlength{\parindent}{0in}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-\pagestyle{empty} % Sin números de página para CV de 1 cuartilla
+\pagestyle{empty} % Sin números de página (estándar para CV de 1 cuartilla)
 
-% Enlaces e iconos
+% Enlaces e iconos limpios
 \usepackage{color,hyperref}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.35}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.4}
 \hypersetup{colorlinks,breaklinks,
             linkcolor=darkblue,urlcolor=darkblue,
             anchorcolor=darkblue,citecolor=darkblue}
 
 \usepackage{fontawesome}
-\usepackage{textpos}
 
-% Comando de encabezado de sección limpio y compatible con ATS
+% Encabezados de sección limpios y compatibles con ATS
 \newcommand{\cvsection}[1]{%
-  \vspace{0.35cm}%
+  \vspace{0.3cm}%
   {\bfseries\large\scshape #1}%
   \vspace{0.05cm}%
   \hrule height 0.6pt%
-  \vspace{0.2cm}%
+  \vspace{0.18cm}%
 }
 
-\newcommand{\semilarge}{\fontsize{13.8}{16.4}\selectfont}
+\newcommand{\semilarge}{\fontsize{14}{16.5}\selectfont}
 
 \begin{document}
 
 % ==============================================================================
-% ENCABEZADO
+% 1. ENCABEZADO (Directo, sin foto y SIN fecha de creación de documento)
 % ==============================================================================
-{\semilarge \textbf{[Tu Nombre y Apellidos]}} \hfill {\small \textbf{[Mes / Año]}} \\
-{\large \textit{[Título Objetivo: ej. Quantitative Scientist | Decision Science Leader | Applied Data Scientist]}}
+\begin{center}
+  {\semilarge \textbf{[Tu Nombre y Apellidos]}} \\[0.1cm]
+  {\large \textit{[Rol Objetivo: ej. Quantitative Researcher \textbar \ Decision Scientist \textbar \ Applied Data Scientist]}} \\[0.15cm]
+  \small
+  \faPhone~[+52] [Tu Teléfono] \quad \textbar \quad
+  \faEnvelope~\href{mailto:tu-correo@email.com}{tu-correo@email.com} \quad \textbar \quad
+  \faLinkedin~\href{https://www.linkedin.com/in/tu-perfil/}{linkedin.com/in/tu-perfil} \quad \textbar \quad
+  \faGithub~\href{https://github.com/tu-usuario}{github.com/tu-usuario}
+\end{center}
 
-\vspace{0.15cm}
-\small
-\faPhone~[+52] [Tu Teléfono] \hfill
-\faEnvelope~\href{mailto:tu-correo@email.com}{tu-correo@email.com} \hfill
-\faLinkedin~\href{https://www.linkedin.com/in/tu-perfil/}{linkedin.com/in/tu-perfil} \hfill
-\faGithub~\href{https://github.com/tu-usuario}{github.com/tu-usuario}
+\vspace{-0.1cm}
 
 % ==============================================================================
-% RESUMEN PROFESIONAL (Máximo 3-4 líneas: quién eres, qué resuelves, qué buscas)
+% 2. RESUMEN PROFESIONAL (3-4 líneas: quién eres analíticamente y qué resuelves)
 % ==============================================================================
 \cvsection{Professional Summary}
 \textit{\small
-[Científico cuantitativo / Doctor en Física / Ingeniero de Datos] con sólida formación en [modelado estocástico, optimización y análisis de datos a gran escala]. Especializado en traducir problemas complejos no estructurados en soluciones analíticas modulares y de alto impacto de negocio. Combina rigor científico y metodológico con dominio de herramientas modernas de programación para acelerar la toma de decisiones basada en datos.
+[Científico cuantitativo / Doctor en Física / Ingeniero de Datos] con sólida formación en [modelado estocástico, optimización y análisis de datos a gran escala]. Especializado en traducir problemas complejos no estructurados en soluciones analíticas modulares y de alto impacto. Combina rigor científico y escepticismo metodológico con dominio de herramientas modernas de programación para acelerar la toma de decisiones basada en datos.
 }
 
 % ==============================================================================
-% EXPERIENCIA PROFESIONAL (Orden cronológico inverso. Verbo + Contexto + Métrica)
-% ==============================================================================
-\cvsection{Professional Experience}
-
-% ROL 1 (Industria o rol más reciente)
-\textbf{[Cargo Objetivo / Título en Industria]} en \textbf{[Nombre de la Empresa o Institución]} \hfill \textit{[Ciudad, País] \textbar \ [Año -- Presente]}
-\vspace{-0.15cm}
-\begin{itemize}[leftmargin=0.4cm] \small
-  \item {[Diseñé / Implementé / Lideré]} la estrategia analítica para [área o producto], identificando y priorizando oportunidades de optimización en [pricing, riesgo, clientes, demanda].
-  \vspace{-0.25cm}
-  \item Traduje dinámicas complejas del [negocio / mercado] en modelos [predictivos / de optimización / ML] que redujeron [tiempo de entrega / costos / error de pronóstico] en un [X\%].
-  \vspace{-0.25cm}
-  \item Construí pipelines de datos de punta a punta colaborando con equipos multidisciplinarios (ingeniería, producto, negocio) para asegurar la adopción operativa del modelo.
-\end{itemize}
-
-\vspace{-0.15cm}
-
-% ROL 2 (Transición: Tu investigación académica traducida al lenguaje de industria)
-\textbf{[Investigador Posdoctoral / Investigador Titular]} en \textbf{[Centro de Investigación / Universidad]} \hfill \textit{[Ciudad, País] \textbar \ [Año -- Año]}
-\vspace{-0.15cm}
-\begin{itemize}[leftmargin=0.4cm] \small
-  \item Dirigí el análisis cuantitativo sobre datasets masivos ($\sim$[TB / PB]) en colaboraciones científicas internacionales ([CERN / Fermilab / etc.]), implementando técnicas de [Machine Learning / simulación Monte Carlo / estadística multivariada].
-  \vspace{-0.25cm}
-  \item Desarrollé algoritmos de [optimización numérica / clasificación señal-ruido] en [Python / C++], reduciendo los tiempos de cómputo en clústeres de alto rendimiento (HPC) en un [X\%].
-  \vspace{-0.25cm}
-  \item Dirigí y capacité a [N]+ estudiantes de posgrado en modelado estadístico, control de versiones (Git) y buenas prácticas de análisis de datos.
-\end{itemize}
-
-% ==============================================================================
-% FORMACIÓN ACADÉMICA
-% ==============================================================================
-\cvsection{Education}
-\small
-\textbf{Ph.D. en [Física / Matemáticas / Computación / Ingeniería]}, [Institución], [Ciudad, País] \hfill \textit{[Año]} \\
-\textbf{M.Sc. en [Área Científica]}, [Institución], [Ciudad, País] \hfill \textit{[Año]} \\
-\textbf{B.Sc. en [Licenciatura / Ingeniería]}, [Institución], [Ciudad, País] \hfill \textit{[Año]}
-
-% ==============================================================================
-% IMPACTO DESTACADO (Bullets ejecutivos cuantificables para enganchar al manager)
-% ==============================================================================
-\cvsection{Selected Impact}
-\small
-\begin{itemize}[leftmargin=0.4cm]
-  \item \textbf{Aceleración analítica:} Reduje el tiempo de entrega (*time-to-market*) de modelos cuantitativos en un [X]\% mediante modularización de código y automatización de pipelines.
-  \vspace{-0.25cm}
-  \item \textbf{Optimización cuantitativa:} Diseñé modelos de [pricing / riesgo / forecasting] que mejoraron la precisión de estimación en un [X]\% frente a la línea base previa.
-  \vspace{-0.25cm}
-  \item \textbf{Liderazgo y rigor:} [Distinción nacional / Premio / Mención], demostrando excelencia en resolución de problemas complejos, entrega de resultados bajo estándares rigurosos y mentoría técnica.
-\end{itemize}
-
-% ==============================================================================
-% HABILIDADES CLAVE (Separadas estratégicamente: Negocio vs Técnico)
+% 3. HABILIDADES CLAVE (Visible de inmediato para superar el filtro inicial)
+% [CONSEJO]: Para quienes van saliendo de academia, colocar Skills aquí demuestra
+% inmediatamente que dominas herramientas productivas y no eres un perfil "solo teórico".
+% Si ya tienes años en la industria, puedes mover esta sección después de Experiencia.
 % ==============================================================================
 \cvsection{Core Skills}
 \small
-\textbf{Business \& Strategy:} Ciencia de Decisiones; Estrategia de Productos de Datos; Gestión de Riesgo; Alineación con Stakeholders; Mentoría y Liderazgo Técnico; Metodologías Ágiles.
+\textbf{Technical \& Quantitative:} Modelado Estadístico, Optimización Matemática, Series de Tiempo, Simulación Estocástica y Monte Carlo; Machine Learning Supervisado / No Supervisado; Python (pandas, numpy, scikit-learn, scipy), SQL, Git, Linux/Bash; [C++ / Cloud: AWS / GCP si aplica].
 
-\vspace{0.1cm}
-\textbf{Quantitative \& Technical:} Optimización Matemática; Modelado Estadístico y Series de Tiempo; Simulación Estocástica y Monte Carlo; Machine Learning Supervisado / No Supervisado; Python (pandas, numpy, scikit-learn, scipy), SQL, Git; [C++ / Cloud: AWS / GCP si aplica].
+\vspace{0.08cm}
+\textbf{Business \& Strategy:} Ciencia de Decisiones, Formulación de Problemas Complejos, Traducción Negocio-Técnica, Comunicación a Stakeholders, Diseño Experimental, Metodologías Ágiles.
 
-\vspace{0.1cm}
+\vspace{0.08cm}
 \textbf{Languages:} Español (Nativo); Inglés (Fluido / Profesional).
+
+% ==============================================================================
+% 4. EXPERIENCIA PROFESIONAL / INVESTIGACIÓN APLICADA
+% [FÓRMULA CLAVE]: [Verbo de acción] + [Problema/Contexto] + [Impacto/Métrica]
+% NOTA: El impacto se incluye dentro de cada viñeta, NO en una sección desconectada.
+% ==============================================================================
+\cvsection{Experience \& Applied Research}
+
+% ROL 1: Tu rol más reciente (en industria, pasantía o estancia aplicada)
+\textbf{[Cargo Objetivo / Título]} \textbar \ \textbf{[Empresa o Institución]}, \textit{[Ciudad, País]} \hfill \textit{[Año -- Presente]}
+\vspace{-0.15cm}
+\begin{itemize}[leftmargin=0.4cm] \small
+  \item Diseñé e implementé la estrategia de análisis cuantitativo para [área o producto], identificando y priorizando oportunidades de optimización en [pricing, riesgo, segmentación o demanda].
+  \vspace{-0.22cm}
+  \item Traduje dinámicas complejas en modelos de [optimización / ML] modulares, acelerando el tiempo de entrega (*time-to-market*) en un [X\%] frente a la línea base previa.
+  \vspace{-0.22cm}
+  \item Construí pipelines de datos de punta a punta colaborando con equipos de ingeniería y negocio, asegurando que el modelo pasara a producción de forma reproducible.
+\end{itemize}
+
+\vspace{-0.15cm}
+
+% ROL 2: Tu trayectoria de investigación científica traducida al lenguaje de la industria
+% [CONSEJO]: Agrupa tu tesis doctoral o proyectos de investigación en un bloque sólido.
+\textbf{[Investigador Posdoctoral / Científico Investigador]} \textbar \ \textbf{[Centro de Investigación / Univ.]} \hfill \textit{[Año -- Año]}
+\vspace{-0.15cm}
+\begin{itemize}[leftmargin=0.4cm] \small
+  \item Dirigí el análisis cuantitativo sobre conjuntos de datos de alta dimensionalidad ($\sim$[TB / PB]) en colaboraciones científicas internacionales ([CERN / Fermilab / etc.]), aplicando técnicas de [Machine Learning / simulación Monte Carlo].
+  \vspace{-0.22cm}
+  \item Desarrollé algoritmos de [optimización numérica / clasificación señal-ruido] en [Python / C++], optimizando tiempos de cómputo en clústeres HPC en un [X\%] mediante paralelización.
+  \vspace{-0.22cm}
+  \item Coordiné y asesoré a [N] investigadores/estudiantes en modelado estadístico riguroso, control de versiones con Git y entrega de resultados bajo estándares editoriales internacionales.
+\end{itemize}
+
+% ==============================================================================
+% 5. FORMACIÓN ACADÉMICA Y CREDENCIALES
+% ==============================================================================
+\cvsection{Education \& Credentials}
+\small
+\textbf{Ph.D. en [Física / Matemáticas / Computación / Ingeniería]} \textbar \ [Institución, Ciudad] \hfill \textit{[Año]} \\
+\textbf{M.Sc. en [Área Científica]} \textbar \ [Institución, Ciudad] \hfill \textit{[Año]} \\
+\textbf{B.Sc. en [Licenciatura / Ingeniería]} \textbar \ [Institución, Ciudad] \hfill \textit{[Año]}
+
+\vspace{0.08cm}
+\textbf{Credenciales y Distinciones:} [Certificación relevante: ej. BMV / Cloud Architect / Nivel en SNII], demostrando excelencia en resolución de problemas complejos y rigor metodológico continuo.
 
 \end{document}

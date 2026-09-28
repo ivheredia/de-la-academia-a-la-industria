@@ -23,13 +23,32 @@ Esta plantilla condensa el formato y la estructura probados en el sector bancari
 
 ---
 
+## 🧭 ¿Cómo ordenar las secciones según tu punto de partida?
+
+No todos transitan en el mismo momento. Adapta el orden según tu situación:
+
+### Caso A: Transición directa (Recién egresado, Maestro, Doctor o Posdoc)
+*Es el caso más común.* Vienes con el estigma de ser "teórico" o de haber trabajado solo en problemas abstractos.
+* **Orden recomendado:**  
+  $$\text{Summary} \longrightarrow \mathbf{\text{Core Skills}} \longrightarrow \text{Experience \& Applied Research} \longrightarrow \text{Education}$$
+* **Por qué:** Colocar las habilidades técnicas (Python, SQL, Git, Linux, Estadística) inmediatamente debajo del resumen disipa en 5 segundos el miedo del reclutador: demuestra de entrada que eres operativo y sabes programar.
+
+### Caso B: Transición tardía (Años como profesor-investigador titular o con experiencia previa en industria)
+Llevas 5, 10 o 15 años en la academia y das el salto, o ya tienes algún puesto corporativo previo.
+* **Orden recomendado:**  
+  $$\text{Summary} \longrightarrow \mathbf{\text{Professional Experience}} \longrightarrow \text{Core Skills} \longrightarrow \text{Education}$$
+* **Por qué:** Aquí tu mayor activo es el liderazgo de proyectos grandes, presupuestos y mentoría. Agrupa tu etapa académica en un solo bloque sólido (*«Investigación Científica & Cómputo de Alto Rendimiento»*) en lugar de listar nombramientos anuales menores que solo saturan la página.
+
+---
+
 ## 🏛️ Anatomía de la Plantilla (Sección por Sección)
 
 ### 1. Encabezado Claro y Directo
 * **Nombre completo en grande.**
 * **Título objetivo (NO tu grado académico aislado):** En lugar de solo poner *"Doctor en Física"*, pon tu rol objetivo:  
-  *Ejemplo:* `Quantitative Scientist | Decision Science Leader | Applied Data Scientist`.
-* **Contacto mínimo y profesional:** Teléfono con código de país, correo electrónico sobrio, enlace a LinkedIn limpio y enlace a tu perfil de GitHub. (Omite dirección postal completa, estado civil o fotografía; en la industria global esto no se utiliza).
+  *Ejemplo:* `Quantitative Researcher | Decision Scientist | Applied Data Scientist`.
+* **Contacto mínimo:** Teléfono con código de país, correo electrónico sobrio, enlace a LinkedIn y enlace a GitHub.
+* ⚠️ **Sin fecha:** Nunca pongas fecha al documento (como `09/2026`). En la industria un CV no se fecha; puede hacer que parezca viejo meses después o confundir a los sistemas ATS.
 
 ### 2. Resumen Profesional (*Professional Summary*) — Máximo 3 o 4 líneas
 Debe responder tres preguntas de inmediato:
@@ -37,33 +56,24 @@ Debe responder tres preguntas de inmediato:
 2. ¿Qué problemas sabes resolver?
 3. ¿Cómo combinas tu rigor con herramientas de producción?
 
-> *Ejemplo:*  
-> *«Científico cuantitativo con sólida formación en modelado estocástico, optimización y análisis de datos a gran escala. Especializado en traducir problemas complejos no estructurados en soluciones analíticas modulares y de alto impacto de negocio. Combina rigor científico y metodológico con dominio de herramientas modernas de programación para acelerar la toma de decisiones basada en datos.»*
+### 3. Habilidades Clave (*Core Skills*)
+Divídelas en categorías claras para demostrar equilibrio entre técnica y negocio:
+* **Technical & Quantitative:** Modelado estadístico, optimización matemática, series de tiempo, ML supervisado/no supervisado, Python (pandas, numpy, scikit-learn, scipy), SQL, Git, Linux/Bash.
+* **Business & Strategy:** Ciencia de decisiones, traducción negocio-técnica, diseño experimental, comunicación ejecutiva a stakeholders, metodologías ágiles.
+* **Languages:** Nivel de idiomas profesional.
 
-### 3. Experiencia Profesional (*Professional Experience*)
-El error clásico es listar actividades académicas pasivas (*"Investigé la desintegración de..."*).  
-La fórmula industrial es: **[Verbo de acción] + [Problema / Contexto técnico] + [Resultado o Métrica de impacto]**.
+### 4. Experiencia e Investigación Aplicada (*Experience & Applied Research*)
+> 💡 **Nota crucial sobre el impacto:** No crees una sección separada de "Selected Impact" al fondo del CV. Cada viñeta de tu experiencia debe llevar el impacto integrado con la fórmula:  
+> **[Verbo de acción] + [Problema / Contexto técnico] + [Resultado o Métrica de impacto]**.
 
-* **Si ya tienes experiencia en la industria:** Pon tus puestos corporativos primero, destacando reducción de tiempos, optimización de costos o mejora en precisión.
-* **Si vienes directo de la academia (Tesis / Posdoc / Profesor):** Traduce tu investigación:
+* **Si vienes de academia (Tesis / Posdoc / Cátedra):**
   - *No digas:* "Cálculo de diagramas de Feynman para colisiones de hadrones".
-  - *Di:* "Diseñé algoritmos de clasificación señal-ruido sobre datasets de alta dimensionalidad (~PB), optimizando el tiempo de cómputo en clústeres HPC en un 35%".
-  - *Dirección de tesis:* Tradúcelo como "Mentoría y liderazgo técnico de equipos de posgrado en buenas prácticas de programación, control de versiones (Git) y modelado estadístico".
+  - *Di:* "Diseñé algoritmos de clasificación señal-ruido sobre datasets de alta dimensionalidad (~PB), optimizando el tiempo de cómputo en clústeres HPC en un 35% mediante paralelización".
+  - *Dirección de tesis:* "Mentoría y liderazgo técnico de equipos de posgrado en modelado estadístico, control de versiones (Git) y estándares internacionales de entrega".
 
-### 4. Formación Académica (*Education*)
-Sé conciso. Título, institución, ciudad y año de graduación.  
-No listes las 40 materias cursadas ni tu promedio (a menos que seas recién egresado de licenciatura y apliques a un programa de becarios que lo exija explícitamente).
-
-### 5. Impacto Destacado (*Selected Impact*)
-Esta sección es tu mejor arma para enganchar al manager. Son 3 o 4 viñetas con números concretos:
-* **Velocidad:** Aceleración de entregas (*time-to-market*) mediante modularización y automatización.
-* **Precisión / Ahorro:** Mejora porcentual en predicción, reducción de sesgos o eficiencia de portafolios frente a la línea base previa.
-* **Rigor y liderazgo:** Distinciones académicas (como el SNII en México) explicadas como evidencia de resiliencia cognitiva, gestión de proyectos y calidad metodológica.
-
-### 6. Habilidades Clave (*Core Skills*)
-Divídelas en dos categorías para demostrar que no solo sabes matemáticas, sino que entiendes la dinámica corporativa:
-* **Business & Strategy:** Ciencia de decisiones, alineación de stakeholders, gestión de riesgos, comunicación ejecutiva, marcos ágiles.
-* **Quantitative & Technical:** Modelado estadístico, optimización, ML, Python (pandas, numpy, scikit-learn), SQL, Git, Linux/Bash, Cloud.
+### 5. Formación Académica y Credenciales (*Education & Credentials*)
+Sé conciso. Grado, institución, ciudad y año de graduación.  
+Si tienes certificaciones de industria (BMV, Cloud, etc.) o reconocimientos nacionales (como el SNII), agrégalos aquí explicando qué demuestran: excelencia en resolución de problemas complejos y rigor continuo.
 
 ---
 
@@ -72,10 +82,11 @@ Divídelas en dos categorías para demostrar que no solo sabes matemáticas, sin
 | ❌ Lo que debes evitar | ✅ Lo que debes hacer |
 | :--- | :--- |
 | Barras de porcentaje de habilidades (*"Python 90%"*). | Mencionar las herramientas en contexto de proyectos reales. |
-| Incluir tu lista completa de 20+ artículos científicos. | Mencionar tu productividad en 1 viñeta de impacto o enlazar a tu Google Scholar / INSPIRE-HEP. |
+| Incluir tu lista completa de 20+ artículos científicos. | Sintetizar tu productividad en 1 viñeta de impacto o enlazar a tu Google Scholar / INSPIRE-HEP. |
 | Diseños en dos columnas con gráficos que rompen los ATS. | Diseño en una sola columna, tipografía limpia y texto plano legible por máquinas. |
 | Currículum de 4 o 5 cuartillas. | **Una sola cuartilla** contundente (máximo 2 si tienes más de 10 años de experiencia mixta). |
 | Tecnicismos herméticos de tu subdisciplina. | Términos universales de la industria: optimización, simulación estocástica, clasificación, pipelines. |
+| Secciones desconectadas de logros al fondo. | Integrar la métrica y el impacto dentro de cada viñeta laboral. |
 
 ---
 
