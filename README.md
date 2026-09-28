@@ -23,7 +23,7 @@ Esta guía condensa más de 15 años de investigación experimental en física d
 3. [🔄 La Matriz de Traducción de Habilidades](#-2-la-matriz-de-traducción-de-habilidades)
 4. [🎯 Arquetipos de Roles](#-3-arquetipos-de-roles-dónde-encaja-un-perfil-cuantitativostem)
 5. [🤖 El Rol del Científico en la Era de la IA Generativa](#-4-el-rol-del-científico-en-la-era-de-la-ia-generativa)
-6. [📋 Las 7 Reglas de Oro para Egresados](#-5-las-7-reglas-de-oro-para-egresados)
+6. [📋 Las 8 Reglas de Oro para Egresados](#-5-las-8-reglas-de-oro-para-egresados)
 7. [🔧 Herramientas Indispensables que NO te Enseñaron en la Universidad](#-6-herramientas-indispensables-que-no-te-enseñaron-en-la-universidad)
 8. [📚 Bibliografía y Rutas de Aprendizaje Curadas](#-7-bibliografía-y-rutas-de-aprendizaje-curadas)
 9. [💼 Dónde Buscar Oportunidades](#-8-dónde-buscar-oportunidades-tipos-de-programas-y-canales)
@@ -51,12 +51,13 @@ Para quienes buscan una hoja de ruta directa y pragmática sobre qué hacer desd
 * **Formato simple:** Máximo 1 o 2 cuartillas (1 recomendada). Diseño sobrio, limpio y en una sola columna. Evita plantillas sobrecargadas con barras de porcentaje ("Python 90%") o diseños complejos que rompen los lectores automáticos (ATS). Más extenso se descarta por falta de capacidad de síntesis.
 * **Traduce tu tesis:** Quita los tecnicismos de física pura ("colisiones de agujeros negros", "correcciones cuánticas en supergravedad"). Traduce tu trabajo a: *modelado estocástico, optimización matemática, simulación numérica, estadística aplicada y análisis de incertidumbre*.
 * **Herramientas obligatorias:** Incluye lo básico que buscan: Python (pandas, numpy, scikit-learn, scipy), **SQL y Git**. En la industria estos dos últimos no son opcionales: si no sabes SQL no puedes extraer los datos, y si no sabes Git no puedes colaborar en un equipo técnico. Si tienes nociones de NLP, Deep Learning o tableros de BI, inclúyelos.
-* **Puestos objetivo:** Con un posgrado en ciencias exactas, no te desgastes aplicando a puestos de soporte o analista junior haciendo reportes básicos. Apunta a **Data Science Aplicada, Modelado Cuantitativo / Quants / Riesgos o Validación de Modelos (Model Risk)**.
+* **Puestos objetivo y la trampa del ego doctoral:** Con un posgrado en ciencias exactas, no te desgastes aplicando a puestos de soporte o analista junior haciendo reportes básicos. Apunta a **Data Science Aplicada, Modelado Cuantitativo / Quants / Riesgos o Validación de Modelos (Model Risk)**. Pero cuidado con el extremo opuesto: **un doctorado no equivale a ser Director o VP desde el primer día.** Certifica una potencia analítica y metodológica de primer nivel, pero aún debes validar competencias de ingeniería en producción, marcos ágiles y valor de negocio. Postula a roles intermedios o sénior como colaborador individual (*Mid-level / Senior IC*); si entregas resultados tangibles, la velocidad de ascenso corporativo superará con creces la de la academia.
 * **Criterio de búsqueda:** Busca un giro que te inspire o te rete técnicamente. La capacidad analítica avanzada se marchita en problemas triviales.
 
 ### Paso 4: Portafolio en GitHub (Tu Prueba Técnica Indispensable)
 * En la industria, tu GitHub es la prueba fehaciente de que sabes programar de forma limpia y estructurada.
 * **Evita ejemplos típicos de tutoriales:** No subas el dataset del Titanic o la clasificación de flores Iris.
+* ⚠️ **Un Jupyter Notebook NO es un producto de software terminado:** En la investigación es común asumir que un archivo `.ipynb` es el entregable final. En la industria, los notebooks son herramientas de experimentación y prototipado visual. Tu portafolio debe demostrar que sabes estructurar código modular en scripts `.py` organizados, con funciones documentadas, manejo de errores y pruebas básicas. Un proyecto que solo consiste en un notebook con celdas ejecutadas fuera de orden y variables globales causará descarte inmediato ante un equipo técnico serio.
 * Sube 2 o 3 proyectos propios con código modular, buenas prácticas y un `README.md` ejecutivo corto que explique:
   1. Qué problema cuantitativo o de negocio se abordó.
   2. Qué supuestos y metodología se utilizaron.
@@ -152,7 +153,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 
 ---
 
-## 📋 5. Las 7 Reglas de Oro para Egresados
+## 📋 5. Las 8 Reglas de Oro para Egresados
 
 1. **No esperes dominarlo todo antes de moverte:** La verdadera curva de aprendizaje ocurre dentro del cambio.
 2. **Explica por qué importa tu trabajo, no solo cómo lo hiciste:** A los directores les interesa el impacto, no la complejidad del cálculo.
@@ -161,6 +162,7 @@ Cuando generar código se vuelve un *commodity*, la ventaja competitiva no está
 5. **Entender el negocio no traiciona tu formación:** La vuelve relevante y de alto impacto en otro entorno.
 6. **Pide retroalimentación temprana y frecuente:** Reduce meses de retrabajo y acelera tu madurez corporativa.
 7. **La brillantez técnica suma mucho; la falta de comunicación o de fiabilidad la anulan por completo.**
+8. **Un posgrado no te hace automáticamente sénior:** Acredita capacidad analítica de élite, no veteranía operativa o de negocio. Entra con humildad técnica y rigor en un rol donde agregues valor desde el primer día; si entregas resultados, el crecimiento será meteórico.
 
 ---
 
@@ -223,7 +225,7 @@ Tu formación científica te dio el pensamiento analítico más poderoso del mer
 * **DeepLearning.AI (Andrew Ng):** [deeplearning.ai](https://www.deeplearning.ai/) — Fundamentos de Machine Learning y Deep Learning.
 * **Plataforma de Práctica:** [Kaggle](https://www.kaggle.com/) — Imprescindible para practicar con datos reales y armar portafolio.
 
-### 📈 C. Finanzas Cuantitativas: La Tríada Indispensable
+### 📈 C. Finanzas Cuantitativas: Los 4 Pilares de Referencia
 Para perfiles con formación matemática sólida que buscan entrar a banca de inversión, mesas de dinero o gestión de riesgos:
 1. **John C. Hull — *Options, Futures, and Other Derivatives*:**  
    [Referencia](https://www.pearson.com/en-us/subject-catalog/p/options-futures-and-other-derivatives/P200000005938) — **Construye el vocabulario y la intuición de mercado:** Cómo opera una mesa de dinero, contratos forward/swaps, margen, paridad put-call y las preguntas clásicas de entrevistas técnicas.
@@ -231,6 +233,8 @@ Para perfiles con formación matemática sólida que buscan entrar a banca de in
    **El puente con la física matemática:** Aborda el pricing de derivados desde las Ecuaciones Diferenciales Parciales (EDP), analogías con difusión/calor y métodos numéricos (diferencias finitas, Monte Carlo).
 3. **Steven Shreve — *Stochastic Calculus for Finance I & II*:**  
    [Referencia Springer](https://link.springer.com/book/10.1007/978-0-387-22527-2) — **El estándar de rigor formal:** Martingalas, cambio de medida de probabilidad (Teorema de Girsanov) y los Teoremas Fundamentales de Valuación de Activos.
+4. **Marcos López de Prado — *Advances in Financial Machine Learning*:**  
+   [Referencia Wiley](https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086) — **El puente entre ML y finanzas reales:** La guía estándar de la industria sobre cómo evitar el sobreajuste (*overfitting*), estructurar *backtesting* estadísticamente robusto, tratar series temporales financieras y prevenir la fuga de información (*data leakage*) en modelos de producción.
 
 ---
 
